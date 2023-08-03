@@ -13,7 +13,7 @@ struct LandmarkList: View {
     
     
     var filteredLandmarks : [Landmark] {
-        landmarks.filter { landmark in
+        modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }
