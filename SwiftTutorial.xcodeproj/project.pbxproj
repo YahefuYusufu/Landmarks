@@ -40,6 +40,8 @@
 		35E41D082A7E76C2001E18BB /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E41D072A7E76C2001E18BB /* CategoryRow.swift */; };
 		35E41D0A2A7E7941001E18BB /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E41D092A7E7941001E18BB /* CategoryItem.swift */; };
 		35EC61FD2A83E2C4005BD33A /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC61FC2A83E2C4005BD33A /* ProfileEditor.swift */; };
+		35ED24B92A879BFB00EE3AF0 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED24B82A879BFB00EE3AF0 /* FeatureCard.swift */; };
+		35ED24BB2A879FA400EE3AF0 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED24BA2A879FA400EE3AF0 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,8 @@
 		35E41D072A7E76C2001E18BB /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		35E41D092A7E7941001E18BB /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		35EC61FC2A83E2C4005BD33A /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		35ED24B82A879BFB00EE3AF0 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		35ED24BA2A879FA400EE3AF0 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				351B1D142A8651F2009BFD94 /* PageViewController.swift */,
+				35ED24B82A879BFB00EE3AF0 /* FeatureCard.swift */,
+				35ED24BA2A879FA400EE3AF0 /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -310,6 +316,7 @@
 				3579D1CC2A8263BA0027734F /* Profile.swift in Sources */,
 				35949DA32A76835D0093234C /* ContentView.swift in Sources */,
 				35E41D012A7E608E001E18BB /* HikeGraph.swift in Sources */,
+				35ED24B92A879BFB00EE3AF0 /* FeatureCard.swift in Sources */,
 				3565CD792A7CF46700F74580 /* Badge.swift in Sources */,
 				35949DB12A7689AF0093234C /* MapView.swift in Sources */,
 				35E41D002A7E608E001E18BB /* GraphCapsule.swift in Sources */,
@@ -323,6 +330,7 @@
 				3579D1CF2A8266720027734F /* ProfileHost.swift in Sources */,
 				35E41CF92A7E5A24001E18BB /* Hike.swift in Sources */,
 				3565CD772A7CF39100F74580 /* RotatedBadgeSymbol.swift in Sources */,
+				35ED24BB2A879FA400EE3AF0 /* PageView.swift in Sources */,
 				3565CD752A7CF1C000F74580 /* BadgeSymbol.swift in Sources */,
 				35EC61FD2A83E2C4005BD33A /* ProfileEditor.swift in Sources */,
 				355F60D82A77C3750098DFEB /* LandmarkList.swift in Sources */,
