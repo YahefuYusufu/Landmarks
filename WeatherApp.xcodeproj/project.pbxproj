@@ -55,9 +55,9 @@
 			children = (
 				3520B3422AC35D6E0045EA69 /* WeatherAppApp.swift */,
 				3520B3442AC35D6E0045EA69 /* ContentView.swift */,
+				352FECE42AC7535E00825A41 /* WeatherButton.swift */,
 				3520B3462AC35D710045EA69 /* Assets.xcassets */,
 				3520B3482AC35D710045EA69 /* Preview Content */,
-				352FECE42AC7535E00825A41 /* WeatherButton.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
