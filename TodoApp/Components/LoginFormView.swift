@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct FormView: View {
+struct LoginFormView: View {
     @State var email = ""
     @State var password = ""
     var body: some View {
         Form {
             TextField("Email Address",text: $email)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .textFieldStyle(DefaultTextFieldStyle())
             SecureField("Password",text: $password)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .textFieldStyle(DefaultTextFieldStyle())
             Button {
                 // Attempt log in
             } label: {
@@ -28,10 +28,11 @@ struct FormView: View {
                         .bold()
                 }
             }
+            .padding()
         }
     }
 }
 
 #Preview {
-    FormView()
+    LoginFormView()
 }
