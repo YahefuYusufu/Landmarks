@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct LoginBottom: View {
+    let title: String
+    let titleLink: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(title)
+            NavigationLink(titleLink,
+                           destination:RegisterView())
+        }
+        
     }
 }
 
 #Preview {
-    LoginBottom()
+    LoginBottom(title: "", titleLink: "")
 }

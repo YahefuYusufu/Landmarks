@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct HeaderView: View {
+    let title: String
+    let subTitle: String
+    let image: String
+    
     var body: some View {
         ZStack {
-            Image("bacground-3")
+            Image(image)
                 .resizable()
                 .scaledToFill()
+                .rotationEffect(.degrees(20))
             VStack {
-                Text("To Do List")
+                Text(title)
                     .font(.system(size: 50))
                     .foregroundColor(.white)
                     .bold()
-                Text("Get Things Done")
+                Text(subTitle)
                     .font(.system(size: 30))
                     .foregroundColor(.white)
             }
@@ -29,5 +34,5 @@ struct HeaderView: View {
 }
 
 #Preview {
-    HeaderView()
+    HeaderView(title: "Title", subTitle: "SubTitle", image: "Image")
 }
