@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3521EA732AF01013004BA4E8 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3521EA722AF01013004BA4E8 /* Extentions.swift */; };
 		35B59E1C2AEEE469000FD164 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 35B59E1B2AEEE469000FD164 /* FirebaseAnalytics */; };
 		35B59E1E2AEEE469000FD164 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 35B59E1D2AEEE469000FD164 /* FirebaseAnalyticsOnDeviceConversion */; };
 		35B59E202AEEE469000FD164 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 35B59E1F2AEEE469000FD164 /* FirebaseAnalyticsSwift */; };
@@ -67,6 +68,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3521EA722AF01013004BA4E8 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		35CB5FE92AEE48260051DBE6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		35CB5FEC2AEE4AA40051DBE6 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 		35CB5FEE2AEE51470051DBE6 /* LoginBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBottom.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				35F3277A2AED014500BE062A /* TodoAppApp.swift */,
 				35F3277E2AED014900BE062A /* Assets.xcassets */,
 				35F327932AED059A00BE062A /* GoogleService-Info.plist */,
+				3521EA722AF01013004BA4E8 /* Extentions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				35F327A82AED0EA900BE062A /* ToDoListItem.swift in Sources */,
 				35F3277B2AED014500BE062A /* TodoAppApp.swift in Sources */,
 				35CB5FED2AEE4AA40051DBE6 /* LoginFormView.swift in Sources */,
+				3521EA732AF01013004BA4E8 /* Extentions.swift in Sources */,
 				35F327B02AED0F6B00BE062A /* NewItemViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

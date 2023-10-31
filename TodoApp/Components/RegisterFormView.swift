@@ -24,6 +24,7 @@ struct RegisterFormView: View {
                 .textFieldStyle(DefaultTextFieldStyle())
             TLButton(title: "Create Account", background: .green){
                 //Action
+                viewModel.register()
             }
             .padding()
         }
