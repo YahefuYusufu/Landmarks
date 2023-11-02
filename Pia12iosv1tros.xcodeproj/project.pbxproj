@@ -11,6 +11,7 @@
 		35F5BFF92AF395A400D43ADF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5BFF82AF395A400D43ADF /* ContentView.swift */; };
 		35F5BFFB2AF395A700D43ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F5BFFA2AF395A700D43ADF /* Assets.xcassets */; };
 		35F5BFFE2AF395A700D43ADF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F5BFFD2AF395A700D43ADF /* Preview Assets.xcassets */; };
+		35F5C0052AF3AA3400D43ADF /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5C0042AF3AA3300D43ADF /* CodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		35F5BFF82AF395A400D43ADF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35F5BFFA2AF395A700D43ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35F5BFFD2AF395A700D43ADF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35F5C0042AF3AA3300D43ADF /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				35F5BFF62AF395A400D43ADF /* Pia12iosv1trosApp.swift */,
 				35F5BFF82AF395A400D43ADF /* ContentView.swift */,
+				35F5C0042AF3AA3300D43ADF /* CodeView.swift */,
 				35F5BFFA2AF395A700D43ADF /* Assets.xcassets */,
 				35F5BFFC2AF395A700D43ADF /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F5C0052AF3AA3400D43ADF /* CodeView.swift in Sources */,
 				35F5BFF92AF395A400D43ADF /* ContentView.swift in Sources */,
 				35F5BFF72AF395A400D43ADF /* Pia12iosv1trosApp.swift in Sources */,
 			);
