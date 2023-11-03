@@ -193,8 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				35F3277C2AED014500BE062A /* MainView.swift */,
-				35F327992AED0D7F00BE062A /* ProfileView.swift */,
 				35F3279B2AED0D9F00BE062A /* ToDoListView.swift */,
+				35F327992AED0D7F00BE062A /* ProfileView.swift */,
 				35F327A12AED0DEE00BE062A /* NewItemView.swift */,
 				35F3279D2AED0DD100BE062A /* LoginView.swift */,
 				35F3279F2AED0DE000BE062A /* RegisterView.swift */,
@@ -209,8 +209,8 @@
 				35F327A92AED0F1700BE062A /* MainViewViewModel.swift */,
 				35F327B12AED0F7E00BE062A /* LoginViewViewModel.swift */,
 				35F327B32AED0F8B00BE062A /* RegisterViewViewModel.swift */,
-				35F327AB2AED0F2B00BE062A /* ProfileViewViewModel.swift */,
 				35F327AD2AED0F3C00BE062A /* ToDoListViewViewModel.swift */,
+				35F327AB2AED0F2B00BE062A /* ProfileViewViewModel.swift */,
 				35F327AF2AED0F6B00BE062A /* NewItemViewViewModel.swift */,
 				35F327B52AED0F9F00BE062A /* TodoListItemViewViewModel.swift */,
 			);
