@@ -194,11 +194,11 @@
 			children = (
 				35F3277C2AED014500BE062A /* MainView.swift */,
 				35F3279B2AED0D9F00BE062A /* ToDoListView.swift */,
-				35F327992AED0D7F00BE062A /* ProfileView.swift */,
 				35F327A12AED0DEE00BE062A /* NewItemView.swift */,
+				35F327A32AED0E4E00BE062A /* ToDoListItemView.swift */,
+				35F327992AED0D7F00BE062A /* ProfileView.swift */,
 				35F3279D2AED0DD100BE062A /* LoginView.swift */,
 				35F3279F2AED0DE000BE062A /* RegisterView.swift */,
-				35F327A32AED0E4E00BE062A /* ToDoListItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

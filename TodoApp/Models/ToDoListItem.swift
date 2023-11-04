@@ -18,4 +18,4 @@ struct TodoListItem: Codable, Identifiable {
         isDone = state
     }
 }
- 
+
