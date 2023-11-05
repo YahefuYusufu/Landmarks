@@ -35,6 +35,7 @@
 		35B59E4C2AEEE469000FD164 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 35B59E4B2AEEE469000FD164 /* FirebaseRemoteConfigSwift */; };
 		35B59E4E2AEEE469000FD164 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 35B59E4D2AEEE469000FD164 /* FirebaseStorage */; };
 		35B59E502AEEE469000FD164 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 35B59E4F2AEEE469000FD164 /* FirebaseStorageCombine-Community */; };
+		35C7B9242AF7A89500F1F911 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C7B9232AF7A89400F1F911 /* Launch Screen.storyboard */; };
 		35CB5FEA2AEE48260051DBE6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB5FE92AEE48260051DBE6 /* HeaderView.swift */; };
 		35CB5FED2AEE4AA40051DBE6 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB5FEC2AEE4AA40051DBE6 /* LoginFormView.swift */; };
 		35CB5FEF2AEE51470051DBE6 /* LoginBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB5FEE2AEE51470051DBE6 /* LoginBottom.swift */; };
@@ -69,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		3521EA722AF01013004BA4E8 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		35C7B9232AF7A89400F1F911 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		35CB5FE92AEE48260051DBE6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		35CB5FEC2AEE4AA40051DBE6 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 		35CB5FEE2AEE51470051DBE6 /* LoginBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBottom.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				35F3277E2AED014900BE062A /* Assets.xcassets */,
 				35F327932AED059A00BE062A /* GoogleService-Info.plist */,
 				3521EA722AF01013004BA4E8 /* Extentions.swift */,
+				35C7B9232AF7A89400F1F911 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			files = (
 				35F327822AED014900BE062A /* Preview Assets.xcassets in Resources */,
 				35F3277F2AED014900BE062A /* Assets.xcassets in Resources */,
+				35C7B9242AF7A89500F1F911 /* Launch Screen.storyboard in Resources */,
 				35F327942AED059A00BE062A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +512,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -541,6 +546,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
