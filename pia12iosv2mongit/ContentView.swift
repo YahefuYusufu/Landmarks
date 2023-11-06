@@ -19,6 +19,9 @@ struct ContentView: View {
         }
         .padding()
     }
+   func dofunnyStuff() {
+      print("fun")
+   }
 }
 
 #Preview {
