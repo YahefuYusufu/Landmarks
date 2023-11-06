@@ -22,6 +22,9 @@ struct ContentView: View {
    func dofunnyStuff() {
       print("fun")
    }
+   func dofunnyStuff2() {
+      print("fun2")
+   }
 }
 
 #Preview {
