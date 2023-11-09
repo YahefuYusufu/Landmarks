@@ -14,6 +14,7 @@
 		35E5817D2AFCD2C7003C54DF /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E5817C2AFCD2C7003C54DF /* ListRowView.swift */; };
 		35E5817F2AFCD51C003C54DF /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E5817E2AFCD51C003C54DF /* PersonDetailView.swift */; };
 		35E581812AFCE7A4003C54DF /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E581802AFCE7A4003C54DF /* PersonModel.swift */; };
+		35E581832AFCFBAA003C54DF /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E581822AFCFBAA003C54DF /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		35E5817C2AFCD2C7003C54DF /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		35E5817E2AFCD51C003C54DF /* PersonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
 		35E581802AFCE7A4003C54DF /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		35E581822AFCFBAA003C54DF /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				35E5817C2AFCD2C7003C54DF /* ListRowView.swift */,
 				35E581702AFCCC2C003C54DF /* ContentView.swift */,
 				35E5817E2AFCD51C003C54DF /* PersonDetailView.swift */,
+				35E581822AFCFBAA003C54DF /* ThirdView.swift */,
 				35E581722AFCCC2E003C54DF /* Assets.xcassets */,
 				35E581742AFCCC2E003C54DF /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 				35E5816F2AFCCC2C003C54DF /* pia12iosNavigationApp.swift in Sources */,
 				35E581812AFCE7A4003C54DF /* PersonModel.swift in Sources */,
 				35E5817F2AFCD51C003C54DF /* PersonDetailView.swift in Sources */,
+				35E581832AFCFBAA003C54DF /* ThirdView.swift in Sources */,
 				35E5817D2AFCD2C7003C54DF /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
