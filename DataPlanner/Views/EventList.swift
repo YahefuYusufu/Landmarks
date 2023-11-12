@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct EventListView: View {
+struct EventList: View {
    @EnvironmentObject var eventData: EventData
    @State private var isAddingNewEvent = false
    @State private var newEvent = Event()
@@ -62,7 +62,7 @@ struct EventListView: View {
 struct EventList_Previews: PreviewProvider {
    static var previews: some View {
       NavigationView {
-         EventListView().environmentObject(EventData())
+         EventList().environmentObject(EventData())
          
       }
    }
