@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-   @State var theJoke: ChunkNorris?
+   @State var theJoke: ChunkNorrisInfo?
    @State var jokeCategories = [String]()
    @State var searchText = ""
    
@@ -69,9 +69,9 @@ struct ContentView: View {
       do {
          let (data, _) = try await URLSession.shared.data(from: apiURL)
          let decoder = JSONDecoder()
-         if let chunkThing = try? decoder.decode(ChunkNorris.self, from: data) {
+         if let chunkThing = try? decoder.decode(ChunckNorrisSearchresult.self, from: data) {
             
-            theJoke = chunkThing
+            theJoke = chunkThing.result[0]
          }
       } catch {
          print("error")
@@ -84,7 +84,7 @@ struct ContentView: View {
       do {
          let (data, _) = try await URLSession.shared.data(from: apiURL)
          let decoder = JSONDecoder()
-         if let chunkThing = try? decoder.decode(ChunkNorris.self, from: data) {
+         if let chunkThing = try? decoder.decode(ChunkNorrisInfo.self, from: data) {
             
             theJoke = chunkThing
          }
@@ -109,13 +109,18 @@ struct ContentView: View {
       }
    }
    
+//   func loadApiRandom() {
+//      Task {
+//         await loadApi(apiUrlString:"https://api.chucknorris.io/jokes/random")
+//      }
+//   }
    func loadApi() async {
       let apiURL = URL(string: "https://api.chucknorris.io/jokes/random")!
       
       do {
          let (data, _) = try await URLSession.shared.data(from: apiURL)
          let decoder = JSONDecoder()
-         if let chunkThing = try? decoder.decode(ChunkNorris.self, from: data) {
+         if let chunkThing = try? decoder.decode(ChunkNorrisInfo.self, from: data) {
             
             theJoke = chunkThing
          }
@@ -158,7 +163,7 @@ struct ContentView: View {
 }
 
 
-struct ChunkNorris: Decodable {
+struct ChunkNorrisInfo: Decodable {
    var id: String
    var created_at: String
    var icon_url: String
@@ -166,3 +171,7 @@ struct ChunkNorris: Decodable {
    var value: String
 }
 
+struct ChunckNorrisSearchresult: Decodable {
+   var total: Int
+   var result: [ChunkNorrisInfo]
+}
