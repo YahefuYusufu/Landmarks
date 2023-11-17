@@ -7,30 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35B289822B0608DC00957C79 /* ChunkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B289812B0608DC00957C79 /* ChunkAPI.swift */; };
-		35B289842B06140900957C79 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B289832B06140800957C79 /* Model.swift */; };
-		35C99DD72B0212AF00B72C42 /* Pia12IosApiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C99DD62B0212AF00B72C42 /* Pia12IosApiApp.swift */; };
-		35C99DD92B0212AF00B72C42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C99DD82B0212AF00B72C42 /* ContentView.swift */; };
-		35C99DDB2B0212B200B72C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C99DDA2B0212B200B72C42 /* Assets.xcassets */; };
-		35C99DDE2B0212B200B72C42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C99DDD2B0212B200B72C42 /* Preview Assets.xcassets */; };
-		35E90EFA2B074D5E0008A611 /* ChunkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E90EF92B074D5E0008A611 /* ChunkHelper.swift */; };
-		35E90EFC2B0757E10008A611 /* ShowJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E90EFB2B0757E10008A611 /* ShowJokeView.swift */; };
+		35DB2B532B07746900E3EFCB /* PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB2B522B07746900E3EFCB /* PlannerApp.swift */; };
+		35DB2B552B07746900E3EFCB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB2B542B07746900E3EFCB /* MainView.swift */; };
+		35DB2B572B07746C00E3EFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DB2B562B07746C00E3EFCB /* Assets.xcassets */; };
+		35DB2B5A2B07746C00E3EFCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DB2B592B07746C00E3EFCB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35B289812B0608DC00957C79 /* ChunkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkAPI.swift; sourceTree = "<group>"; };
-		35B289832B06140800957C79 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		35C99DD32B0212AF00B72C42 /* Pia12IosApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pia12IosApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35C99DD62B0212AF00B72C42 /* Pia12IosApiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pia12IosApiApp.swift; sourceTree = "<group>"; };
-		35C99DD82B0212AF00B72C42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		35C99DDA2B0212B200B72C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		35C99DDD2B0212B200B72C42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		35E90EF92B074D5E0008A611 /* ChunkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkHelper.swift; sourceTree = "<group>"; };
-		35E90EFB2B0757E10008A611 /* ShowJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowJokeView.swift; sourceTree = "<group>"; };
+		35DB2B4F2B07746900E3EFCB /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DB2B522B07746900E3EFCB /* PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerApp.swift; sourceTree = "<group>"; };
+		35DB2B542B07746900E3EFCB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		35DB2B562B07746C00E3EFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35DB2B592B07746C00E3EFCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35C99DD02B0212AF00B72C42 /* Frameworks */ = {
+		35DB2B4C2B07746900E3EFCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,41 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35C99DCA2B0212AF00B72C42 = {
+		35DB2B462B07746900E3EFCB = {
 			isa = PBXGroup;
 			children = (
-				35C99DD52B0212AF00B72C42 /* Pia12IosApi */,
-				35C99DD42B0212AF00B72C42 /* Products */,
+				35DB2B512B07746900E3EFCB /* Planner */,
+				35DB2B502B07746900E3EFCB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		35C99DD42B0212AF00B72C42 /* Products */ = {
+		35DB2B502B07746900E3EFCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35C99DD32B0212AF00B72C42 /* Pia12IosApi.app */,
+				35DB2B4F2B07746900E3EFCB /* Planner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35C99DD52B0212AF00B72C42 /* Pia12IosApi */ = {
+		35DB2B512B07746900E3EFCB /* Planner */ = {
 			isa = PBXGroup;
 			children = (
-				35C99DD62B0212AF00B72C42 /* Pia12IosApiApp.swift */,
-				35C99DD82B0212AF00B72C42 /* ContentView.swift */,
-				35B289812B0608DC00957C79 /* ChunkAPI.swift */,
-				35C99DDA2B0212B200B72C42 /* Assets.xcassets */,
-				35C99DDC2B0212B200B72C42 /* Preview Content */,
-				35B289832B06140800957C79 /* Model.swift */,
-				35E90EF92B074D5E0008A611 /* ChunkHelper.swift */,
-				35E90EFB2B0757E10008A611 /* ShowJokeView.swift */,
+				35DB2B522B07746900E3EFCB /* PlannerApp.swift */,
+				35DB2B542B07746900E3EFCB /* MainView.swift */,
+				35DB2B562B07746C00E3EFCB /* Assets.xcassets */,
+				35DB2B582B07746C00E3EFCB /* Preview Content */,
 			);
-			path = Pia12IosApi;
+			path = Planner;
 			sourceTree = "<group>";
 		};
-		35C99DDC2B0212B200B72C42 /* Preview Content */ = {
+		35DB2B582B07746C00E3EFCB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				35C99DDD2B0212B200B72C42 /* Preview Assets.xcassets */,
+				35DB2B592B07746C00E3EFCB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -82,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35C99DD22B0212AF00B72C42 /* Pia12IosApi */ = {
+		35DB2B4E2B07746900E3EFCB /* Planner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35C99DE12B0212B200B72C42 /* Build configuration list for PBXNativeTarget "Pia12IosApi" */;
+			buildConfigurationList = 35DB2B5D2B07746C00E3EFCB /* Build configuration list for PBXNativeTarget "Planner" */;
 			buildPhases = (
-				35C99DCF2B0212AF00B72C42 /* Sources */,
-				35C99DD02B0212AF00B72C42 /* Frameworks */,
-				35C99DD12B0212AF00B72C42 /* Resources */,
+				35DB2B4B2B07746900E3EFCB /* Sources */,
+				35DB2B4C2B07746900E3EFCB /* Frameworks */,
+				35DB2B4D2B07746900E3EFCB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Pia12IosApi;
-			productName = Pia12IosApi;
-			productReference = 35C99DD32B0212AF00B72C42 /* Pia12IosApi.app */;
+			name = Planner;
+			productName = Planner;
+			productReference = 35DB2B4F2B07746900E3EFCB /* Planner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		35C99DCB2B0212AF00B72C42 /* Project object */ = {
+		35DB2B472B07746900E3EFCB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					35C99DD22B0212AF00B72C42 = {
+					35DB2B4E2B07746900E3EFCB = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 35C99DCE2B0212AF00B72C42 /* Build configuration list for PBXProject "Pia12IosApi" */;
+			buildConfigurationList = 35DB2B4A2B07746900E3EFCB /* Build configuration list for PBXProject "Planner" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,46 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 35C99DCA2B0212AF00B72C42;
-			productRefGroup = 35C99DD42B0212AF00B72C42 /* Products */;
+			mainGroup = 35DB2B462B07746900E3EFCB;
+			productRefGroup = 35DB2B502B07746900E3EFCB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35C99DD22B0212AF00B72C42 /* Pia12IosApi */,
+				35DB2B4E2B07746900E3EFCB /* Planner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35C99DD12B0212AF00B72C42 /* Resources */ = {
+		35DB2B4D2B07746900E3EFCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35C99DDE2B0212B200B72C42 /* Preview Assets.xcassets in Resources */,
-				35C99DDB2B0212B200B72C42 /* Assets.xcassets in Resources */,
+				35DB2B5A2B07746C00E3EFCB /* Preview Assets.xcassets in Resources */,
+				35DB2B572B07746C00E3EFCB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35C99DCF2B0212AF00B72C42 /* Sources */ = {
+		35DB2B4B2B07746900E3EFCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35C99DD92B0212AF00B72C42 /* ContentView.swift in Sources */,
-				35C99DD72B0212AF00B72C42 /* Pia12IosApiApp.swift in Sources */,
-				35E90EFA2B074D5E0008A611 /* ChunkHelper.swift in Sources */,
-				35B289822B0608DC00957C79 /* ChunkAPI.swift in Sources */,
-				35E90EFC2B0757E10008A611 /* ShowJokeView.swift in Sources */,
-				35B289842B06140900957C79 /* Model.swift in Sources */,
+				35DB2B552B07746900E3EFCB /* MainView.swift in Sources */,
+				35DB2B532B07746900E3EFCB /* PlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		35C99DDF2B0212B200B72C42 /* Debug */ = {
+		35DB2B5B2B07746C00E3EFCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		35C99DE02B0212B200B72C42 /* Release */ = {
+		35DB2B5C2B07746C00E3EFCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,14 +264,14 @@
 			};
 			name = Release;
 		};
-		35C99DE22B0212B200B72C42 /* Debug */ = {
+		35DB2B5E2B07746C00E3EFCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pia12IosApi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Planner/Preview Content\"";
 				DEVELOPMENT_TEAM = 73P5VLU884;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -301,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.Pia12IosApi;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.Planner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		35C99DE32B0212B200B72C42 /* Release */ = {
+		35DB2B5F2B07746C00E3EFCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pia12IosApi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Planner/Preview Content\"";
 				DEVELOPMENT_TEAM = 73P5VLU884;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -330,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.Pia12IosApi;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.Planner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35C99DCE2B0212AF00B72C42 /* Build configuration list for PBXProject "Pia12IosApi" */ = {
+		35DB2B4A2B07746900E3EFCB /* Build configuration list for PBXProject "Planner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35C99DDF2B0212B200B72C42 /* Debug */,
-				35C99DE02B0212B200B72C42 /* Release */,
+				35DB2B5B2B07746C00E3EFCB /* Debug */,
+				35DB2B5C2B07746C00E3EFCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35C99DE12B0212B200B72C42 /* Build configuration list for PBXNativeTarget "Pia12IosApi" */ = {
+		35DB2B5D2B07746C00E3EFCB /* Build configuration list for PBXNativeTarget "Planner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35C99DE22B0212B200B72C42 /* Debug */,
-				35C99DE32B0212B200B72C42 /* Release */,
+				35DB2B5E2B07746C00E3EFCB /* Debug */,
+				35DB2B5F2B07746C00E3EFCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 35C99DCB2B0212AF00B72C42 /* Project object */;
+	rootObject = 35DB2B472B07746900E3EFCB /* Project object */;
 }

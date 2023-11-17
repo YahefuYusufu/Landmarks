@@ -8,170 +8,102 @@
 import SwiftUI
 
 struct ContentView: View {
-   @State var theJoke: ChunkNorrisInfo?
-   @State var jokeCategories = [String]()
+   @StateObject var APIStuff = ChunkAPI()
    @State var searchText = ""
-   
+   @State var showJoke = false
    
    var body: some View {
-      VStack {
-         
-         if theJoke != nil {
-            Text(theJoke!.created_at)
-            Text(theJoke!.value)
-         }
-         
-         HStack {
-            TextField("Search Joke.....",text: $searchText)
-               .border(Color.black)
-   
+      ZStack {
+         VStack {
+            VStack {
+               if APIStuff.theJoke != nil {
+                  Text(ChunkHelper().fixDate(indate: APIStuff.theJoke!.created_at))
+                  Text(APIStuff.theJoke!.value)
+                  
+                  Button(action: {
+                     showJoke = true
+                  }, label: {
+                     Text("The Joke")
+                  })
+                  .sheet(isPresented: $showJoke, content: {
+                     ShowJokeView(bigAPI: APIStuff)
+                  })
+               }
+            }
+            .frame(maxWidth: .infinity)
+            .frame(height: 200.0)
+            .background(Color.blue)
+            
+            if APIStuff.errorMessage != "" {
+               VStack {
+                  Text(APIStuff.errorMessage)
+                     .foregroundStyle(Color.white)
+               }
+               .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+               .frame(height: 100.0)
+               .background(Color.red)
+            }
+            
+            HStack {
+               TextField("Search Joke ...",text:$searchText)
+                  .onChange(of: searchText) { oldValue, newValue in
+                     print("Changing from \(oldValue) to \(newValue)")
+                  }
+               Button(action: {
+                  APIStuff.loadApiForSearch(jokeSearch: searchText)
+               }, label: {
+                  Text("Search")
+               })
+            }
             
             Button(action: {
-               Task {
-                  await loadApiForSearch(jokeSearch:searchText)
-               }
+               APIStuff.loadApiRandom()
             }, label: {
-               Text("Search")
+               Text("Random Joke")
             })
-         }
-         Button(action: {
-            Task {
-               await loadApi()
-            }
-         }, label: {
-            Text("Random Joke")
-         })
-         
-         List {
-            ForEach(jokeCategories,id: \.self) { cat in
-               Button(action: {
-                  Task {
-                     await  loadApiForCategory(jokeCat: cat)
+            
+            List {
+               ForEach(APIStuff.jokeCategories, id: \.self) { cat in
+                  VStack {
+                     Text(cat)
                   }
-               }, label: {
-                  Text(cat)
-               })
-               
+                  .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                  .frame(height: 80)
+                  .onTapGesture {
+                     APIStuff.loadAPIForCategory(jokeCat: cat)
+                  }
+               }
             }
          }
+         .padding()
+         
+         if APIStuff.isLoading {
+            VStack {
+               Text("Loading...")
+               ProgressView()
+            }
+            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+            .frame(maxHeight: .infinity)
+            .background(Color.gray)
+            .opacity(0.5)
+         }
       }
-      .padding()
       .onAppear() {
-         Task {
-            await loadCategories()
+         APIStuff.loadCategories()
+      }
+      .onChange(of: APIStuff.isLoading) { oldValue, newValue in
+         if(APIStuff.isLoading) {
+            print("Nu Ladda")
+         } else {
+            print("Inte Ladda Mer")
          }
       }
    }
-   
-   func loadApiForSearch(jokeSearch: String) async {
-      let apiURL = URL(string: "https://api.chucknorris.io/jokes/search?query="+jokeSearch)!
-      
-      do {
-         let (data, _) = try await URLSession.shared.data(from: apiURL)
-         let decoder = JSONDecoder()
-         if let chunkThing = try? decoder.decode(ChunckNorrisSearchresult.self, from: data) {
-            
-            theJoke = chunkThing.result[0]
-         }
-      } catch {
-         print("error")
-      }
-   }
-   
-   func loadApiForCategory(jokeCat: String) async {
-      let apiURL = URL(string: "https://api.chucknorris.io/jokes/random?category="+jokeCat)!
-      
-      do {
-         let (data, _) = try await URLSession.shared.data(from: apiURL)
-         let decoder = JSONDecoder()
-         if let chunkThing = try? decoder.decode(ChunkNorrisInfo.self, from: data) {
-            
-            theJoke = chunkThing
-         }
-      } catch {
-         print("error")
-      }
-   }
-   
-   func loadCategories() async {
-      let apiURL = URL(string: "https://api.chucknorris.io/jokes/categories")!
-      
-      do {
-         let (data, _) = try await URLSession.shared.data(from: apiURL)
-         let decoder = JSONDecoder()
-         if let categories = try? decoder.decode([String].self, from: data) {
-            
-            jokeCategories = categories
-            
-         }
-      } catch {
-         print("error")
-      }
-   }
-   
-//   func loadApiRandom() {
-//      Task {
-//         await loadApi(apiUrlString:"https://api.chucknorris.io/jokes/random")
-//      }
-//   }
-   func loadApi() async {
-      let apiURL = URL(string: "https://api.chucknorris.io/jokes/random")!
-      
-      do {
-         let (data, _) = try await URLSession.shared.data(from: apiURL)
-         let decoder = JSONDecoder()
-         if let chunkThing = try? decoder.decode(ChunkNorrisInfo.self, from: data) {
-            
-            theJoke = chunkThing
-         }
-      } catch {
-         print("error")
-      }
-   }
-   
-   //   func fethcApi() async {
-   ////      print("get the API")
-   //
-   //      let apiURL = URL(string: "https://api.chucknorris.io/jokes/random")!
-   //
-   //      //      do {
-   //      //         let apiString = try String(contentsOf: apiURL)
-   //      //
-   //      //         joke  = apiString
-   //      //      } catch {
-   //      //
-   //      //         print("error")
-   //      //      }
-   //
-   //      do {
-   //         let (data, _) = try await URLSession.shared.data(from: apiURL)
-   //         let decoder = JSONDecoder()
-   //         if let chunkThing = try? decoder.decode(ChunkNorris.self, from: data) {
-   //
-   ////            print(chunkThing.value)
-   ////            theJoke = chunkThing.value
-   //         }
-   //
-   //      } catch {
-   //         print("error")
-   //      }
-   //
-   //   }
 }
 #Preview {
    ContentView()
 }
 
 
-struct ChunkNorrisInfo: Decodable {
-   var id: String
-   var created_at: String
-   var icon_url: String
-   var updated_at: String
-   var value: String
-}
 
-struct ChunckNorrisSearchresult: Decodable {
-   var total: Int
-   var result: [ChunkNorrisInfo]
-}
+
