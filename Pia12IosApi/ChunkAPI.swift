@@ -10,75 +10,103 @@ import SwiftUI
 class ChunkAPI: ObservableObject  {
    @Published var theJoke: ChunkNorrisInfo?
    @Published var jokeCategories = [String]()
+   @Published var isLoading = false
+   @Published var errorMessage = ""
    
-
-  
    
-   func loadApiForSearch(jokeSearch: String) async {
-      let apiURL = URL(string: "https://api.chucknorris.io/jokes/search?query="+jokeSearch)!
+   
+   func loadApi(apiURLString:String) async {
+      if ChunkHelper().isPreview {
+         theJoke = ChunkNorrisInfo(id: "aaa", created_at: "xxx",  value: "Joke Joke Joke")
+         return
+      }
+      
+      DispatchQueue.main.async {
+         self.errorMessage = ""
+      }
+      
+      let apiURL = URL(string: apiURLString)!
       
       do {
+         DispatchQueue.main.async {
+            self.isLoading = true
+         }
          let (data, _) = try await URLSession.shared.data(from: apiURL)
          let decoder = JSONDecoder()
+         if let chunkThing = try? decoder.decode(ChunkNorrisInfo.self, from: data) {
+            DispatchQueue.main.async {
+               self.theJoke = chunkThing
+            }
+         }
          if let chunkThing = try? decoder.decode(ChunckNorrisSearchresult.self, from: data) {
-            
-            theJoke = chunkThing.result[0]
+            if chunkThing.result.count > 0 {
+               DispatchQueue.main.async {
+                  self.theJoke = chunkThing.result[0]
+               }
+            } else {
+               DispatchQueue.main.async {
+                  self.errorMessage = "Nothing found!"
+               }
+            }
+         }
+         DispatchQueue.main.async {
+            self.isLoading = false
          }
       } catch {
          print("error")
       }
    }
    
-   func loadApiForCategory(jokeCat: String) async {
-      let apiURL = URL(string: "https://api.chucknorris.io/jokes/random?category="+jokeCat)!
-      
-      do {
-         let (data, _) = try await URLSession.shared.data(from: apiURL)
-         let decoder = JSONDecoder()
-         if let chunkThing = try? decoder.decode(ChunkNorrisInfo.self, from: data) {
-            
-            theJoke = chunkThing
+   func loadCategories()  {
+      Task {
+         if ChunkHelper().isPreview {
+            jokeCategories = ["A","B","C"]
+            return
          }
-      } catch {
-         print("error")
+         let apiURL = URL(string: "https://api.chucknorris.io/jokes/categories")!
+         
+         DispatchQueue.main.async {
+            self.isLoading = true
+         }
+         
+         do {
+            let (data, _) = try await URLSession.shared.data(from: apiURL)
+            let decoder = JSONDecoder()
+            
+            DispatchQueue.main.async {
+               if let categories = try? decoder.decode([String].self, from: data) {
+                  
+                  self.jokeCategories = categories
+               }
+               self.isLoading = false
+            }
+         } catch {
+            print("error")
+         }
+         
+      }
+   }
+   //loadAPIForCategory
+   func loadAPIForCategory(jokeCat: String)   {
+      Task {
+         await loadApi(apiURLString:"https://api.chucknorris.io/jokes/random?category="+jokeCat)
       }
    }
    
-   func loadCategories() async {
-      let apiURL = URL(string: "https://api.chucknorris.io/jokes/categories")!
-      
-      do {
-         let (data, _) = try await URLSession.shared.data(from: apiURL)
-         let decoder = JSONDecoder()
-         if let categories = try? decoder.decode([String].self, from: data) {
-            
-            jokeCategories = categories
-            
-         }
-      } catch {
-         print("error")
+   //loadApiForSearch
+   func loadApiForSearch(jokeSearch: String)   {
+      Task {
+         await loadApi(apiURLString:"https://api.chucknorris.io/jokes/search?query="+jokeSearch)
       }
    }
    
-   //   func loadApiRandom() {
-   //      Task {
-   //         await loadApi(apiUrlString:"https://api.chucknorris.io/jokes/random")
-   //      }
-   //   }
-   func loadApi() async {
-      let apiURL = URL(string: "https://api.chucknorris.io/jokes/random")!
-      
-      do {
-         let (data, _) = try await URLSession.shared.data(from: apiURL)
-         let decoder = JSONDecoder()
-         if let chunkThing = try? decoder.decode(ChunkNorrisInfo.self, from: data) {
-            
-            theJoke = chunkThing
-         }
-      } catch {
-         print("error")
+   //loadApiRandom
+   func loadApiRandom() {
+      Task {
+         await loadApi(apiURLString:"https://api.chucknorris.io/jokes/random")
       }
    }
+   
    
    //   func fethcApi() async {
    ////      print("get the API")

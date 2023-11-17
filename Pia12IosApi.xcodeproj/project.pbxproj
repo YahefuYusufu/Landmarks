@@ -13,6 +13,8 @@
 		35C99DD92B0212AF00B72C42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C99DD82B0212AF00B72C42 /* ContentView.swift */; };
 		35C99DDB2B0212B200B72C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C99DDA2B0212B200B72C42 /* Assets.xcassets */; };
 		35C99DDE2B0212B200B72C42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C99DDD2B0212B200B72C42 /* Preview Assets.xcassets */; };
+		35E90EFA2B074D5E0008A611 /* ChunkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E90EF92B074D5E0008A611 /* ChunkHelper.swift */; };
+		35E90EFC2B0757E10008A611 /* ShowJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E90EFB2B0757E10008A611 /* ShowJokeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		35C99DD82B0212AF00B72C42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35C99DDA2B0212B200B72C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35C99DDD2B0212B200B72C42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35E90EF92B074D5E0008A611 /* ChunkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkHelper.swift; sourceTree = "<group>"; };
+		35E90EFB2B0757E10008A611 /* ShowJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowJokeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				35C99DDA2B0212B200B72C42 /* Assets.xcassets */,
 				35C99DDC2B0212B200B72C42 /* Preview Content */,
 				35B289832B06140800957C79 /* Model.swift */,
+				35E90EF92B074D5E0008A611 /* ChunkHelper.swift */,
+				35E90EFB2B0757E10008A611 /* ShowJokeView.swift */,
 			);
 			path = Pia12IosApi;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			files = (
 				35C99DD92B0212AF00B72C42 /* ContentView.swift in Sources */,
 				35C99DD72B0212AF00B72C42 /* Pia12IosApiApp.swift in Sources */,
+				35E90EFA2B074D5E0008A611 /* ChunkHelper.swift in Sources */,
 				35B289822B0608DC00957C79 /* ChunkAPI.swift in Sources */,
+				35E90EFC2B0757E10008A611 /* ShowJokeView.swift in Sources */,
 				35B289842B06140900957C79 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
