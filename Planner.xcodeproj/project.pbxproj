@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		35DB2B532B07746900E3EFCB /* PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB2B522B07746900E3EFCB /* PlannerApp.swift */; };
-		35DB2B552B07746900E3EFCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB2B542B07746900E3EFCB /* ContentView.swift */; };
+		35DB2B552B07746900E3EFCB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB2B542B07746900E3EFCB /* MainView.swift */; };
 		35DB2B572B07746C00E3EFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DB2B562B07746C00E3EFCB /* Assets.xcassets */; };
 		35DB2B5A2B07746C00E3EFCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DB2B592B07746C00E3EFCB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		35DB2B4F2B07746900E3EFCB /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DB2B522B07746900E3EFCB /* PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerApp.swift; sourceTree = "<group>"; };
-		35DB2B542B07746900E3EFCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35DB2B542B07746900E3EFCB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		35DB2B562B07746C00E3EFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35DB2B592B07746C00E3EFCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				35DB2B522B07746900E3EFCB /* PlannerApp.swift */,
-				35DB2B542B07746900E3EFCB /* ContentView.swift */,
+				35DB2B542B07746900E3EFCB /* MainView.swift */,
 				35DB2B562B07746C00E3EFCB /* Assets.xcassets */,
 				35DB2B582B07746C00E3EFCB /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35DB2B552B07746900E3EFCB /* ContentView.swift in Sources */,
+				35DB2B552B07746900E3EFCB /* MainView.swift in Sources */,
 				35DB2B532B07746900E3EFCB /* PlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
