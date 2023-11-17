@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct DatePlannerV2App: App {
+   @StateObject private var eventData = EventData()
+   
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           NavigationView {
+              EventList()
+              Text("Select an Event")
+                 .foregroundColor(.secondary)
+           }
+           .environmentObject(eventData)
         }
     }
 }
