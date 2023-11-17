@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35B289822B0608DC00957C79 /* ChunkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B289812B0608DC00957C79 /* ChunkAPI.swift */; };
+		35B289842B06140900957C79 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B289832B06140800957C79 /* Model.swift */; };
 		35C99DD72B0212AF00B72C42 /* Pia12IosApiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C99DD62B0212AF00B72C42 /* Pia12IosApiApp.swift */; };
 		35C99DD92B0212AF00B72C42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C99DD82B0212AF00B72C42 /* ContentView.swift */; };
 		35C99DDB2B0212B200B72C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C99DDA2B0212B200B72C42 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35B289812B0608DC00957C79 /* ChunkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkAPI.swift; sourceTree = "<group>"; };
+		35B289832B06140800957C79 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		35C99DD32B0212AF00B72C42 /* Pia12IosApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pia12IosApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C99DD62B0212AF00B72C42 /* Pia12IosApiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pia12IosApiApp.swift; sourceTree = "<group>"; };
 		35C99DD82B0212AF00B72C42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +57,10 @@
 			children = (
 				35C99DD62B0212AF00B72C42 /* Pia12IosApiApp.swift */,
 				35C99DD82B0212AF00B72C42 /* ContentView.swift */,
+				35B289812B0608DC00957C79 /* ChunkAPI.swift */,
 				35C99DDA2B0212B200B72C42 /* Assets.xcassets */,
 				35C99DDC2B0212B200B72C42 /* Preview Content */,
+				35B289832B06140800957C79 /* Model.swift */,
 			);
 			path = Pia12IosApi;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				35C99DD92B0212AF00B72C42 /* ContentView.swift in Sources */,
 				35C99DD72B0212AF00B72C42 /* Pia12IosApiApp.swift in Sources */,
+				35B289822B0608DC00957C79 /* ChunkAPI.swift in Sources */,
+				35B289842B06140900957C79 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
