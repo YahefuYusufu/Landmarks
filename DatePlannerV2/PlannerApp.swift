@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct DatePlannerV2App: App {
+struct PlannerApp: App {
    @StateObject private var eventData = EventData()
    
     var body: some Scene {

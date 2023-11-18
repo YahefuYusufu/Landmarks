@@ -36,7 +36,7 @@ struct EventList: View {
             }
          }
       }
-      .navigationTitle("Event Planner")
+      .navigationTitle("Planner")
       .toolbar {
          ToolbarItem {
             Button {

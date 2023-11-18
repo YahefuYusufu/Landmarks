@@ -24,7 +24,7 @@ struct TaskRow: View {
          if isEditing || task.isNew {
             TextField("Task description", text: $task.text)
                .focused($isFocused)
-               .onChange(of: isFocused) { oldValue,newValue in
+               .onChange(of: isFocused) { newValue in
                   if newValue == false {
                      task.isNew = false
                   }

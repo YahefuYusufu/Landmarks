@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35A7305A2B04BC48008F61A7 /* DatePlannerV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A730592B04BC48008F61A7 /* DatePlannerV2App.swift */; };
+		35A7305A2B04BC48008F61A7 /* PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A730592B04BC48008F61A7 /* PlannerApp.swift */; };
 		35A7305C2B04BC48008F61A7 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A7305B2B04BC48008F61A7 /* EventList.swift */; };
 		35A7305E2B04BC4B008F61A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A7305D2B04BC4B008F61A7 /* Assets.xcassets */; };
 		35A730612B04BC4B008F61A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A730602B04BC4B008F61A7 /* Preview Assets.xcassets */; };
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		35A730562B04BC48008F61A7 /* DatePlannerV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePlannerV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35A730592B04BC48008F61A7 /* DatePlannerV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerV2App.swift; sourceTree = "<group>"; };
+		35A730592B04BC48008F61A7 /* PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerApp.swift; sourceTree = "<group>"; };
 		35A7305B2B04BC48008F61A7 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
 		35A7305D2B04BC4B008F61A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35A730602B04BC4B008F61A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		35A730582B04BC48008F61A7 /* DatePlannerV2 */ = {
 			isa = PBXGroup;
 			children = (
-				35A730592B04BC48008F61A7 /* DatePlannerV2App.swift */,
+				35A730592B04BC48008F61A7 /* PlannerApp.swift */,
 				35A7305B2B04BC48008F61A7 /* EventList.swift */,
 				35A7305D2B04BC4B008F61A7 /* Assets.xcassets */,
 				35A7306B2B04C19B008F61A7 /* Event.swift */,
@@ -182,7 +182,7 @@
 				35A730782B04D281008F61A7 /* EventDetail.swift in Sources */,
 				35A730762B04CFD2008F61A7 /* EventEditor.swift in Sources */,
 				35A7306C2B04C19B008F61A7 /* Event.swift in Sources */,
-				35A7305A2B04BC48008F61A7 /* DatePlannerV2App.swift in Sources */,
+				35A7305A2B04BC48008F61A7 /* PlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +329,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.DatePlannerV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -358,6 +360,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.DatePlannerV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
