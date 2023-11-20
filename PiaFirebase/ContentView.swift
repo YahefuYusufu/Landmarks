@@ -6,19 +6,59 @@
 //
 
 import SwiftUI
+import FirebaseDatabase
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+   @State var addtodo = ""
+   var body: some View {
+      VStack {
+         HStack {
+            TextField("Todo",text:$addtodo )
+            
+            Button(action: {
+               saveTodo()
+            },label: {
+               Text("Save")
+            })
+         }
+      }
+      .padding()
+              .onAppear() {
+                 loadTodo()
+      //           doStuff()
+              }
+   }
+   func saveTodo() {
+      var ref: DatabaseReference!
+      ref = Database.database().reference()
+      
+      ref.child("todo").setValue(addtodo)
+   }
+   func loadTodo() {
+      var ref: DatabaseReference!
+      ref = Database.database().reference()
+      ref.child("todo").getData(completion: { error, snapshot in
+         
+         if let thetodo = snapshot?.value {
+            addtodo = thetodo as! String
+         }
+      })
+   }
+   
+   //   func doStuff () {
+   //      var ref: DatabaseReference!
+   //
+   //      ref = Database.database().reference()
+   //
+   ////      ref.child("fruit").setValue("Banan")
+   //      ref.child("fruit").getData(completion: { error, snapshot in
+   //         var thefuit = snapshot?.value as! String
+   //
+   //         print(thefuit)
+   //      })
+   //   }
 }
 
 #Preview {
-    ContentView()
+   ContentView()
 }
