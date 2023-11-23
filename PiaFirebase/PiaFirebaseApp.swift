@@ -24,7 +24,7 @@ struct PiaFirebaseApp: App {
    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
