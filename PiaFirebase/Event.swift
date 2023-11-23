@@ -8,13 +8,20 @@
 import Foundation
 import Firebase
 
+enum TodoFilterType {
+   case all,done,notdone
+}
+
 
 class Event: ObservableObject {
+ 
    @Published var todoItems = [TodoItem]()
+   var allTodoItems = [TodoItem]()
+   var filterType = TodoFilterType.all
    
-   
+ 
+  
 
-   
    func saveTodo(addtodo:String) {
       
       if addtodo == "" {
@@ -38,7 +45,24 @@ class Event: ObservableObject {
       
    }
    
+   func filterTodo(newFilter: TodoFilterType) {
+      filterType = newFilter
+      doTodoFilter()
+   }
+   func doTodoFilter() {
+      if self.filterType == .all {
+         todoItems = allTodoItems
+      }
+      if self.filterType == .done {
+         todoItems = allTodoItems.filter { $0.isdone == true }
+      }
+      if self.filterType == .notdone {
+         todoItems = allTodoItems.filter { $0.isdone != true}
+      }
+   }
+   
    func loadTodo() {
+     
       var ref: DatabaseReference!
       ref = Database.database().reference()
       
@@ -53,7 +77,7 @@ class Event: ObservableObject {
          
          for todoChild in snapshot!.children {
             let childSnap = todoChild as! DataSnapshot
-//            print("EN TODO SAK")
+            print("EN TODO SAK")
             
             if let theTodo = childSnap.value as? [String : Any] {
                let tempTodo = TodoItem()
@@ -64,7 +88,8 @@ class Event: ObservableObject {
                allTheTodos.append(tempTodo)
             }
             
-            self.todoItems = allTheTodos
+            self.allTodoItems = allTheTodos
+            self.doTodoFilter()
          }
       })
    }
@@ -79,6 +104,16 @@ class Event: ObservableObject {
          doneItem.isdone = true
       }
       ref.child("todoList").child(uid).child(doneItem.todoId).child("todoDone").setValue(doneItem.isdone)
+      
+      loadTodo()
+   }
+   
+   func deleteTodo(deleteItem: TodoItem) {
+      var ref: DatabaseReference!
+      ref = Database.database().reference()
+      let uid = Auth.auth().currentUser!.uid
+      
+      ref.child("todoList").child(uid).child(deleteItem.todoId).removeValue()
       
       loadTodo()
    }

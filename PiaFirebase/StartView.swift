@@ -21,7 +21,7 @@ struct StartView: View {
          }
       }
       .onAppear() {
-        var handle = Auth.auth().addStateDidChangeListener { auth, user in
+         _ = Auth.auth().addStateDidChangeListener { auth, user in
            if Auth.auth().currentUser == nil {
               isLoggedIn = false
            } else {
