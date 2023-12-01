@@ -29,7 +29,7 @@ struct StartView: View {
               print(Auth.auth().currentUser?.uid as Any)
            }
          }
-         
+        
       }
    }
 }

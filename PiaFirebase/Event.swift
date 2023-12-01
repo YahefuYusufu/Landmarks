@@ -7,6 +7,7 @@
 
 import Foundation
 import Firebase
+import FirebaseStorage
 
 enum TodoFilterType {
    case all,done,notdone
@@ -19,6 +20,8 @@ class Event: ObservableObject {
    var allTodoItems = [TodoItem]()
    var filterType = TodoFilterType.all
    
+   @Published var testImage: UIImage?
+   var testId = UUID().uuidString
  
   
 
@@ -116,6 +119,26 @@ class Event: ObservableObject {
       ref.child("todoList").child(uid).child(deleteItem.todoId).removeValue()
       
       loadTodo()
+   }
+   
+   func testGetImage() {
+      let storage = Storage.storage()
+      let storageRef = storage.reference()
+      
+      let frog = storageRef.child("download.jpeg")
+      print("Image download")
+      
+      frog.getData(maxSize: 1 * 1024 * 1024) { data, error in
+         if let error = error {
+            print("get error")
+         } else {
+            
+            DispatchQueue.main.async {
+               self.testImage = UIImage(data: data!)
+            }
+            print(data!.count)
+         }
+      }
    }
    
    //   func doStuff () {
