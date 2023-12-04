@@ -20,14 +20,14 @@ struct ContentView: View {
    
    var body: some View {
       VStack {
-         if galleryImage != nil {
-            galleryImage!
-               .resizable()
-               .frame(width: 100,height: 100)
-         }
-         PhotosPicker(selection: $selectedPhoto, matching: .images) {
-            Text("select image")
-         }
+//         if galleryImage != nil {
+//            galleryImage!
+//               .resizable()
+//               .frame(width: 100,height: 100)
+//         }
+//         PhotosPicker(selection: $selectedPhoto, matching: .images) {
+//            Text("select image")
+//         }
          HStack {
             TextField("Todo",text:$addtodo )
             
@@ -105,10 +105,10 @@ struct ContentView: View {
          //           doStuff()
         testGetImage()
       }
-      .task(id: selectedPhoto) {
-         galleryImage = try? await selectedPhoto?.loadTransferable(type: Image.self)
-         testUpLoad(theImage: galleryImage!)
-      }
+//      .task(id: selectedPhoto) {
+//         galleryImage = try? await selectedPhoto?.loadTransferable(type: Image.self)
+//         testUpLoad(theImage: galleryImage!)
+//      }
    }
    
    func testGetImage() {
@@ -117,7 +117,7 @@ struct ContentView: View {
       let frog = storageRef.child("download.jpeg")
       print("image download")
       frog.getData(maxSize: 1 * 1024 * 1024) { data, error in
-         if let error = error {
+         if error != nil {
           
          } else {
             
@@ -131,10 +131,10 @@ struct ContentView: View {
    
    
    func testUpLoad(theImage: Image) {
-      let storage = Storage.storage()
-      let storageRef = storage.reference()
+//      let storage = Storage.storage()
+//      let storageRef = storage.reference()
       
-      let saveImage = storageRef.child("download.jpeg")
+//      let saveImage = storageRef.child("download.jpeg")
    }
    
 }

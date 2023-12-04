@@ -40,6 +40,7 @@ class Event: ObservableObject {
       todoThing["todoDone"] = false
       
       let uid = Auth.auth().currentUser!.uid
+//      uid = "OFUR7Ga76nYykPEgNHOCDcIfpyw1"
       
       ref.child("todoList").child(uid).childByAutoId().setValue(todoThing)
       
@@ -129,7 +130,7 @@ class Event: ObservableObject {
       print("Image download")
       
       frog.getData(maxSize: 1 * 1024 * 1024) { data, error in
-         if let error = error {
+         if error != nil {
             print("get error")
          } else {
             
