@@ -12,6 +12,7 @@
 		355F3B122B21B86C00D52476 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F3B112B21B86C00D52476 /* Item.swift */; };
 		355F3B142B21B87200D52476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355F3B132B21B87200D52476 /* Assets.xcassets */; };
 		355F3B172B21B87200D52476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355F3B162B21B87200D52476 /* Preview Assets.xcassets */; };
+		355F3B1E2B21C85500D52476 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F3B1D2B21C85500D52476 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		355F3B112B21B86C00D52476 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		355F3B132B21B87200D52476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		355F3B162B21B87200D52476 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		355F3B1D2B21C85500D52476 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				355F3B0D2B21B86C00D52476 /* PiaCoreDataApp.swift */,
 				355F3B0F2B21B86C00D52476 /* ContentView.swift */,
+				355F3B1D2B21C85500D52476 /* DetailView.swift */,
 				355F3B112B21B86C00D52476 /* Item.swift */,
 				355F3B132B21B87200D52476 /* Assets.xcassets */,
 				355F3B152B21B87200D52476 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				355F3B102B21B86C00D52476 /* ContentView.swift in Sources */,
+				355F3B1E2B21C85500D52476 /* DetailView.swift in Sources */,
 				355F3B122B21B86C00D52476 /* Item.swift in Sources */,
 				355F3B0E2B21B86C00D52476 /* PiaCoreDataApp.swift in Sources */,
 			);

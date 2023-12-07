@@ -9,21 +9,52 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+   @Environment(\.modelContext) private var modelContext
+   @Query private var items: [Item]
+//   @Query(sort: \Todo.title) private var todoItems: [Todo]
+   @Query private var todoItems: [Todo]
+   @Query private var allSub: [SubStuff]
+   @State var addTodo = ""
 
     var body: some View {
         NavigationSplitView {
-            List {
-                ForEach(items) { item in
+           VStack {
+              
+              HStack {
+                 TextField("Add till",text: $addTodo)
+                 
+                 Button(action: {
+                    
+                    let newTodo = Todo(title: addTodo)
+                    modelContext.insert(newTodo)
+                 }, label: {
+                    Text("ADD")
+                 })
+              }
+              
+              List {
+                 ForEach(todoItems) { todothing in
+                   
                     NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                       
+                       DetailView(currentTodo: todothing, addSub: "")
                     } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                       HStack {
+                          Text(todothing.title)
+                          
+                          
+                          if todothing.done {
+                             Text("klar")
+                          } else {
+                             Text("inte klar")
+                          }
+                       }
                     }
-                }
-                .onDelete(perform: deleteItems)
-            }
+                    
+                 }
+                 .onDelete(perform: deleteItems)
+              }
+           }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
@@ -39,17 +70,20 @@ struct ContentView: View {
         }
     }
 
+   func getNotDone() {
+      
+   }
     private func addItem() {
         withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+           let newTodo = Todo(title:"buy milk")
+            modelContext.insert(newTodo)
         }
     }
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
-                modelContext.delete(items[index])
+                modelContext.delete(todoItems[index])
             }
         }
     }
@@ -57,5 +91,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+      .modelContainer(for: [Item.self,Todo.self], inMemory: true)
 }
