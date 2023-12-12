@@ -11,8 +11,7 @@
 		357CBF5B2B26FB36000D1649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CBF5A2B26FB36000D1649 /* ContentView.swift */; };
 		357CBF5D2B26FB38000D1649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357CBF5C2B26FB38000D1649 /* Assets.xcassets */; };
 		357CBF602B26FB38000D1649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357CBF5F2B26FB38000D1649 /* Preview Assets.xcassets */; };
-		357CBF622B26FB38000D1649 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CBF612B26FB38000D1649 /* Persistence.swift */; };
-		357CBF652B26FB38000D1649 /* PiaPurchase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 357CBF632B26FB38000D1649 /* PiaPurchase.xcdatamodeld */; };
+		357CBF6D2B26FE32000D1649 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357CBF6C2B26FE32000D1649 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +20,8 @@
 		357CBF5A2B26FB36000D1649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		357CBF5C2B26FB38000D1649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357CBF5F2B26FB38000D1649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		357CBF612B26FB38000D1649 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		357CBF642B26FB38000D1649 /* PiaPurchase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PiaPurchase.xcdatamodel; sourceTree = "<group>"; };
+		357CBF6C2B26FE32000D1649 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		357CBF6E2B270CE4000D1649 /* piaiap.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = piaiap.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357CBF6D2B26FE32000D1649 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,8 +39,10 @@
 		357CBF4C2B26FB35000D1649 = {
 			isa = PBXGroup;
 			children = (
+				357CBF6E2B270CE4000D1649 /* piaiap.storekit */,
 				357CBF572B26FB36000D1649 /* PiaPurchase */,
 				357CBF562B26FB36000D1649 /* Products */,
+				357CBF6B2B26FE32000D1649 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +60,6 @@
 				357CBF582B26FB36000D1649 /* PiaPurchaseApp.swift */,
 				357CBF5A2B26FB36000D1649 /* ContentView.swift */,
 				357CBF5C2B26FB38000D1649 /* Assets.xcassets */,
-				357CBF612B26FB38000D1649 /* Persistence.swift */,
-				357CBF632B26FB38000D1649 /* PiaPurchase.xcdatamodeld */,
 				357CBF5E2B26FB38000D1649 /* Preview Content */,
 			);
 			path = PiaPurchase;
@@ -71,6 +71,14 @@
 				357CBF5F2B26FB38000D1649 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		357CBF6B2B26FE32000D1649 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				357CBF6C2B26FE32000D1649 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +151,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357CBF622B26FB38000D1649 /* Persistence.swift in Sources */,
-				357CBF652B26FB38000D1649 /* PiaPurchase.xcdatamodeld in Sources */,
 				357CBF5B2B26FB36000D1649 /* ContentView.swift in Sources */,
 				357CBF592B26FB36000D1649 /* PiaPurchaseApp.swift in Sources */,
 			);
@@ -352,19 +358,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		357CBF632B26FB38000D1649 /* PiaPurchase.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				357CBF642B26FB38000D1649 /* PiaPurchase.xcdatamodel */,
-			);
-			currentVersion = 357CBF642B26FB38000D1649 /* PiaPurchase.xcdatamodel */;
-			path = PiaPurchase.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 357CBF4D2B26FB35000D1649 /* Project object */;
 }
