@@ -13,6 +13,7 @@
 		35D1FBD22B323D4900C960FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D1FBD12B323D4900C960FF /* Preview Assets.xcassets */; };
 		35D1FBD92B323DB900C960FF /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D1FBD82B323DB900C960FF /* TabView1.swift */; };
 		35D1FBDB2B323DCA00C960FF /* TebView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D1FBDA2B323DCA00C960FF /* TebView2.swift */; };
+		35D1FBDD2B32DE1600C960FF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D1FBDC2B32DE1600C960FF /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		35D1FBD12B323D4900C960FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		35D1FBD82B323DB900C960FF /* TabView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
 		35D1FBDA2B323DCA00C960FF /* TebView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TebView2.swift; sourceTree = "<group>"; };
+		35D1FBDC2B32DE1600C960FF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				35D1FBDA2B323DCA00C960FF /* TebView2.swift */,
 				35D1FBCE2B323D4900C960FF /* Assets.xcassets */,
 				35D1FBD02B323D4900C960FF /* Preview Content */,
+				35D1FBDC2B32DE1600C960FF /* Model.swift */,
 			);
 			path = SwiftuiNavigationDeep;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D1FBDD2B32DE1600C960FF /* Model.swift in Sources */,
 				35D1FBCD2B323D4700C960FF /* ContentView.swift in Sources */,
 				35D1FBDB2B323DCA00C960FF /* TebView2.swift in Sources */,
 				35D1FBCB2B323D4700C960FF /* SwiftuiNavigationDeepApp.swift in Sources */,
