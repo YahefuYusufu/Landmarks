@@ -1,14 +1,17 @@
 //
-//  Company.swift
-//  NavigationSplitView
+// Created for NavigationSplitView
+// by Stewart Lynch on 2022-07-22
+// Using Swift 5.0
 //
-//  Created by yusufyakuf on 2023-12-22.
+// Follow me on Twitter: @StewartLynch
+// Subscribe on YouTube: https://youTube.com/StewartLynch
 //
+    
 
 import Foundation
 
 struct Company: Identifiable {
-   var id: String
-   var name: String
-   var employee: [Employee] = []
+    var id: String
+    var name: String
+    var employees: [Employee] = []
 }

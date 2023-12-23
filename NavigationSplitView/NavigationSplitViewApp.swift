@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct NavigationSplitViewApp: App {
    @StateObject var store = DataStore()
+   
     var body: some Scene {
         WindowGroup {
             ContentView()

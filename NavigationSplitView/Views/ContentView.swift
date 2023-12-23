@@ -21,7 +21,6 @@ struct ContentView: View {
                 Image(systemName: "briefcase")
                 Text("Companies")
              }
-
        }
     }
 }

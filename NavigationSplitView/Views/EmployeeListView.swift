@@ -9,9 +9,23 @@ import SwiftUI
 
 struct EmployeeListView: View {
    @EnvironmentObject var store: DataStore
+   @State private var employeeId: Employee.ID?
+   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        //two coloums option
+       NavigationSplitView(columnVisibility: .constant(.doubleColumn)) {
+          List(store.filteredEmployees,selection: $employeeId) { employee in
+             Text(employee.fullName)
+                .font(.title)
+          }
+          .searchable(text: $store.employeeFilter)
+          .navigationTitle("Employees")
+       } detail: {
+          EmployeeView(employeeId: employeeId)
+       }
+       .navigationSplitViewStyle(.balanced)
     }
+      
 }
 
 #Preview {
