@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  pia12Klockan
+//  pia12iosKlockan Watch App
 //
 //  Created by yusufyakuf on 2024-01-03.
 //
@@ -9,25 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
    
-   @StateObject var peopleapi = PersonAPI()
-   
+   @StateObject var peopleApi = PersonAPI()
    var body: some View {
       NavigationStack {
          VStack {
-            Text("Tjena, världen!")
-            
+//            Text("Hello, watch!")
+//         FuncyBox()
             List {
-               ForEach(peopleapi.people, id: \.firstName) { person in
-                  NavigationLink(destination: Text("ABC")) {
+               ForEach(peopleApi.people ,id:\.firstName) { person in
+                  NavigationLink(destination:PersonView(currentPerson: person)) {
                      Text(person.firstName)
                   }
                }
             }
-            
          }
          .padding()
          .onAppear() {
-            peopleapi.loadPeople()
+            peopleApi.loadPeople()
          }
       }
    }
