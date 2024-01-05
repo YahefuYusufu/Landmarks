@@ -15,6 +15,8 @@
 		3502527C2B38474F003EE447 /* NewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502527B2B38474F003EE447 /* NewBookView.swift */; };
 		3502527E2B3887C5003EE447 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502527D2B3887C5003EE447 /* RatingsView.swift */; };
 		3557257E2B3ADD0B003C4192 /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3557257D2B3ADD0B003C4192 /* EditBookView.swift */; };
+		35864E202B4867C600A99441 /* BookSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35864E1F2B4867C600A99441 /* BookSample.swift */; };
+		35864E222B486A8700A99441 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35864E212B486A8700A99441 /* PreviewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		3502527B2B38474F003EE447 /* NewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookView.swift; sourceTree = "<group>"; };
 		3502527D2B3887C5003EE447 /* RatingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingsView.swift; path = "../../../MyBooks-1stVideo_CRUD/MyBooks/RatingsView.swift"; sourceTree = "<group>"; };
 		3557257D2B3ADD0B003C4192 /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
+		35864E1F2B4867C600A99441 /* BookSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSample.swift; sourceTree = "<group>"; };
+		35864E212B486A8700A99441 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				3502526B2B38316E003EE447 /* CRUDOperationApp.swift */,
+				35864E1F2B4867C600A99441 /* BookSample.swift */,
+				35864E212B486A8700A99441 /* PreviewContainer.swift */,
 				3502526D2B38316F003EE447 /* BookListView.swift */,
 				3502527B2B38474F003EE447 /* NewBookView.swift */,
 				350252792B3831DC003EE447 /* Book.swift */,
@@ -153,7 +159,9 @@
 				3502526E2B38316F003EE447 /* BookListView.swift in Sources */,
 				3502527E2B3887C5003EE447 /* RatingsView.swift in Sources */,
 				3557257E2B3ADD0B003C4192 /* EditBookView.swift in Sources */,
+				35864E202B4867C600A99441 /* BookSample.swift in Sources */,
 				3502526C2B38316E003EE447 /* CRUDOperationApp.swift in Sources */,
+				35864E222B486A8700A99441 /* PreviewContainer.swift in Sources */,
 				3502527A2B3831DC003EE447 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
