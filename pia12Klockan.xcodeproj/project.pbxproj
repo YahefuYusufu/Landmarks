@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353E3FCE2B4557B500E81671 /* pia12KlockanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FCD2B4557B500E81671 /* pia12KlockanApp.swift */; };
+		353E3FD02B4557B500E81671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FCF2B4557B500E81671 /* ContentView.swift */; };
+		353E3FD22B4557B800E81671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E3FD12B4557B800E81671 /* Assets.xcassets */; };
+		353E3FD52B4557B800E81671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E3FD42B4557B800E81671 /* Preview Assets.xcassets */; };
+		353E3FE22B45582A00E81671 /* pia12iosKlockanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FE12B45582A00E81671 /* pia12iosKlockanApp.swift */; };
+		353E3FE42B45582A00E81671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FE32B45582A00E81671 /* ContentView.swift */; };
+		353E3FE62B45582F00E81671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E3FE52B45582F00E81671 /* Assets.xcassets */; };
+		353E3FE92B45582F00E81671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E3FE82B45582F00E81671 /* Preview Assets.xcassets */; };
+		353E3FEC2B45582F00E81671 /* pia12iosKlockan Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 353E3FDF2B45582A00E81671 /* pia12iosKlockan Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		353E3FF22B45620800E81671 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FF12B45620800E81671 /* PersonView.swift */; };
+		353E3FF42B45639100E81671 /* FuncyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FF32B45639100E81671 /* FuncyBox.swift */; };
+		353E3FF72B45648000E81671 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FF62B45647F00E81671 /* PersonAPI.swift */; };
+		353E3FFA2B45683E00E81671 /* sharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E3FF92B45683E00E81671 /* sharedAssets.xcassets */; };
+		353E3FFB2B45683E00E81671 /* sharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E3FF92B45683E00E81671 /* sharedAssets.xcassets */; };
+		353E3FFD2B456FB800E81671 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FF62B45647F00E81671 /* PersonAPI.swift */; };
+		353E3FFE2B45707A00E81671 /* FuncyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FF32B45639100E81671 /* FuncyBox.swift */; };
+		353E40072B457FBA00E81671 /* pia12IOSTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E40062B457FBA00E81671 /* pia12IOSTVApp.swift */; };
+		353E40092B457FBA00E81671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E40082B457FBA00E81671 /* ContentView.swift */; };
+		353E400B2B457FBF00E81671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E400A2B457FBF00E81671 /* Assets.xcassets */; };
+		353E400E2B457FBF00E81671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E400D2B457FBF00E81671 /* Preview Assets.xcassets */; };
+		353E40122B4581F100E81671 /* FuncyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FF32B45639100E81671 /* FuncyBox.swift */; };
+		353E40132B45820100E81671 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FF62B45647F00E81671 /* PersonAPI.swift */; };
+		353E40142B45821000E81671 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E3FF12B45620800E81671 /* PersonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		353E3FEA2B45582F00E81671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353E3FC22B4557B500E81671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353E3FDE2B45582A00E81671;
+			remoteInfo = "pia12iosKlockan Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		353E3FF02B45582F00E81671 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				353E3FEC2B45582F00E81671 /* pia12iosKlockan Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		353E3FCA2B4557B500E81671 /* pia12Klockan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia12Klockan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353E3FCD2B4557B500E81671 /* pia12KlockanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia12KlockanApp.swift; sourceTree = "<group>"; };
+		353E3FCF2B4557B500E81671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		353E3FD12B4557B800E81671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353E3FD42B4557B800E81671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		353E3FDF2B45582A00E81671 /* pia12iosKlockan Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pia12iosKlockan Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		353E3FE12B45582A00E81671 /* pia12iosKlockanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia12iosKlockanApp.swift; sourceTree = "<group>"; };
+		353E3FE32B45582A00E81671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		353E3FE52B45582F00E81671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353E3FE82B45582F00E81671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		353E3FF12B45620800E81671 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		353E3FF32B45639100E81671 /* FuncyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncyBox.swift; sourceTree = "<group>"; };
+		353E3FF62B45647F00E81671 /* PersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
+		353E3FF92B45683E00E81671 /* sharedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sharedAssets.xcassets; sourceTree = "<group>"; };
+		353E3FFC2B456EB500E81671 /* pia12iosKlockan Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "pia12iosKlockan Watch App.entitlements"; sourceTree = "<group>"; };
+		353E40042B457FBA00E81671 /* pia12IOSTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia12IOSTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353E40062B457FBA00E81671 /* pia12IOSTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia12IOSTVApp.swift; sourceTree = "<group>"; };
+		353E40082B457FBA00E81671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		353E400A2B457FBF00E81671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353E400D2B457FBF00E81671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353E3FC72B4557B500E81671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E3FDC2B45582A00E81671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E40012B457FBA00E81671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353E3FC12B4557B500E81671 = {
+			isa = PBXGroup;
+			children = (
+				353E3FF92B45683E00E81671 /* sharedAssets.xcassets */,
+				353E3FCC2B4557B500E81671 /* pia12Klockan */,
+				353E3FE02B45582A00E81671 /* pia12iosKlockan Watch App */,
+				353E40052B457FBA00E81671 /* pia12IOSTV */,
+				353E3FCB2B4557B500E81671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353E3FCB2B4557B500E81671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353E3FCA2B4557B500E81671 /* pia12Klockan.app */,
+				353E3FDF2B45582A00E81671 /* pia12iosKlockan Watch App.app */,
+				353E40042B457FBA00E81671 /* pia12IOSTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353E3FCC2B4557B500E81671 /* pia12Klockan */ = {
+			isa = PBXGroup;
+			children = (
+				353E3FCD2B4557B500E81671 /* pia12KlockanApp.swift */,
+				353E3FCF2B4557B500E81671 /* ContentView.swift */,
+				353E3FF32B45639100E81671 /* FuncyBox.swift */,
+				353E3FF62B45647F00E81671 /* PersonAPI.swift */,
+				353E3FD12B4557B800E81671 /* Assets.xcassets */,
+				353E3FD32B4557B800E81671 /* Preview Content */,
+			);
+			path = pia12Klockan;
+			sourceTree = "<group>";
+		};
+		353E3FD32B4557B800E81671 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				353E3FD42B4557B800E81671 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		353E3FE02B45582A00E81671 /* pia12iosKlockan Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				353E3FFC2B456EB500E81671 /* pia12iosKlockan Watch App.entitlements */,
+				353E3FE12B45582A00E81671 /* pia12iosKlockanApp.swift */,
+				353E3FE32B45582A00E81671 /* ContentView.swift */,
+				353E3FF12B45620800E81671 /* PersonView.swift */,
+				353E3FE52B45582F00E81671 /* Assets.xcassets */,
+				353E3FE72B45582F00E81671 /* Preview Content */,
+			);
+			path = "pia12iosKlockan Watch App";
+			sourceTree = "<group>";
+		};
+		353E3FE72B45582F00E81671 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				353E3FE82B45582F00E81671 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		353E40052B457FBA00E81671 /* pia12IOSTV */ = {
+			isa = PBXGroup;
+			children = (
+				353E40062B457FBA00E81671 /* pia12IOSTVApp.swift */,
+				353E40082B457FBA00E81671 /* ContentView.swift */,
+				353E400A2B457FBF00E81671 /* Assets.xcassets */,
+				353E400C2B457FBF00E81671 /* Preview Content */,
+			);
+			path = pia12IOSTV;
+			sourceTree = "<group>";
+		};
+		353E400C2B457FBF00E81671 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				353E400D2B457FBF00E81671 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353E3FC92B4557B500E81671 /* pia12Klockan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353E3FD82B4557B800E81671 /* Build configuration list for PBXNativeTarget "pia12Klockan" */;
+			buildPhases = (
+				353E3FC62B4557B500E81671 /* Sources */,
+				353E3FC72B4557B500E81671 /* Frameworks */,
+				353E3FC82B4557B500E81671 /* Resources */,
+				353E3FF02B45582F00E81671 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353E3FEB2B45582F00E81671 /* PBXTargetDependency */,
+			);
+			name = pia12Klockan;
+			productName = pia12Klockan;
+			productReference = 353E3FCA2B4557B500E81671 /* pia12Klockan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		353E3FDE2B45582A00E81671 /* pia12iosKlockan Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353E3FED2B45582F00E81671 /* Build configuration list for PBXNativeTarget "pia12iosKlockan Watch App" */;
+			buildPhases = (
+				353E3FDB2B45582A00E81671 /* Sources */,
+				353E3FDC2B45582A00E81671 /* Frameworks */,
+				353E3FDD2B45582A00E81671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pia12iosKlockan Watch App";
+			productName = "pia12iosKlockan Watch App";
+			productReference = 353E3FDF2B45582A00E81671 /* pia12iosKlockan Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		353E40032B457FBA00E81671 /* pia12IOSTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353E400F2B457FBF00E81671 /* Build configuration list for PBXNativeTarget "pia12IOSTV" */;
+			buildPhases = (
+				353E40002B457FBA00E81671 /* Sources */,
+				353E40012B457FBA00E81671 /* Frameworks */,
+				353E40022B457FBA00E81671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pia12IOSTV;
+			productName = pia12IOSTV;
+			productReference = 353E40042B457FBA00E81671 /* pia12IOSTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353E3FC22B4557B500E81671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					353E3FC92B4557B500E81671 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					353E3FDE2B45582A00E81671 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					353E40032B457FBA00E81671 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 353E3FC52B4557B500E81671 /* Build configuration list for PBXProject "pia12Klockan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353E3FC12B4557B500E81671;
+			productRefGroup = 353E3FCB2B4557B500E81671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353E3FC92B4557B500E81671 /* pia12Klockan */,
+				353E3FDE2B45582A00E81671 /* pia12iosKlockan Watch App */,
+				353E40032B457FBA00E81671 /* pia12IOSTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353E3FC82B4557B500E81671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E3FFA2B45683E00E81671 /* sharedAssets.xcassets in Resources */,
+				353E3FD52B4557B800E81671 /* Preview Assets.xcassets in Resources */,
+				353E3FD22B4557B800E81671 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E3FDD2B45582A00E81671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E3FFB2B45683E00E81671 /* sharedAssets.xcassets in Resources */,
+				353E3FE92B45582F00E81671 /* Preview Assets.xcassets in Resources */,
+				353E3FE62B45582F00E81671 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E40022B457FBA00E81671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E400E2B457FBF00E81671 /* Preview Assets.xcassets in Resources */,
+				353E400B2B457FBF00E81671 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353E3FC62B4557B500E81671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E3FD02B4557B500E81671 /* ContentView.swift in Sources */,
+				353E3FF42B45639100E81671 /* FuncyBox.swift in Sources */,
+				353E3FCE2B4557B500E81671 /* pia12KlockanApp.swift in Sources */,
+				353E3FF72B45648000E81671 /* PersonAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E3FDB2B45582A00E81671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E3FF22B45620800E81671 /* PersonView.swift in Sources */,
+				353E3FFE2B45707A00E81671 /* FuncyBox.swift in Sources */,
+				353E3FE42B45582A00E81671 /* ContentView.swift in Sources */,
+				353E3FE22B45582A00E81671 /* pia12iosKlockanApp.swift in Sources */,
+				353E3FFD2B456FB800E81671 /* PersonAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E40002B457FBA00E81671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E40142B45821000E81671 /* PersonView.swift in Sources */,
+				353E40092B457FBA00E81671 /* ContentView.swift in Sources */,
+				353E40122B4581F100E81671 /* FuncyBox.swift in Sources */,
+				353E40072B457FBA00E81671 /* pia12IOSTVApp.swift in Sources */,
+				353E40132B45820100E81671 /* PersonAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		353E3FEB2B45582F00E81671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353E3FDE2B45582A00E81671 /* pia12iosKlockan Watch App */;
+			targetProxy = 353E3FEA2B45582F00E81671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		353E3FD62B4557B800E81671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		353E3FD72B4557B800E81671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		353E3FD92B4557B800E81671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia12Klockan/Preview Content\"";
+				DEVELOPMENT_TEAM = 73P5VLU884;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.pia12Klockan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		353E3FDA2B4557B800E81671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia12Klockan/Preview Content\"";
+				DEVELOPMENT_TEAM = 73P5VLU884;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.pia12Klockan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		353E3FEE2B45582F00E81671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pia12iosKlockan Watch App/pia12iosKlockan Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia12iosKlockan Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 73P5VLU884;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pia12iosKlockan;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.prgacademy.pia12Klockan;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.pia12Klockan.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		353E3FEF2B45582F00E81671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pia12iosKlockan Watch App/pia12iosKlockan Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia12iosKlockan Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 73P5VLU884;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pia12iosKlockan;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.prgacademy.pia12Klockan;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.pia12Klockan.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		353E40102B457FBF00E81671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia12IOSTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 73P5VLU884;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.pia12IOSTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.2;
+			};
+			name = Debug;
+		};
+		353E40112B457FBF00E81671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia12IOSTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 73P5VLU884;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prgacademy.pia12IOSTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353E3FC52B4557B500E81671 /* Build configuration list for PBXProject "pia12Klockan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353E3FD62B4557B800E81671 /* Debug */,
+				353E3FD72B4557B800E81671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353E3FD82B4557B800E81671 /* Build configuration list for PBXNativeTarget "pia12Klockan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353E3FD92B4557B800E81671 /* Debug */,
+				353E3FDA2B4557B800E81671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353E3FED2B45582F00E81671 /* Build configuration list for PBXNativeTarget "pia12iosKlockan Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353E3FEE2B45582F00E81671 /* Debug */,
+				353E3FEF2B45582F00E81671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353E400F2B457FBF00E81671 /* Build configuration list for PBXNativeTarget "pia12IOSTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353E40102B457FBF00E81671 /* Debug */,
+				353E40112B457FBF00E81671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353E3FC22B4557B500E81671 /* Project object */;
+}
