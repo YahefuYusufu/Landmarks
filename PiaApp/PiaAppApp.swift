@@ -11,7 +11,7 @@ import SwiftUI
 struct PiaAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

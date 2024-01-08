@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351A91202B4BF6A5009DDD55 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A911F2B4BF6A5009DDD55 /* LoginView.swift */; };
+		351A91222B4BF6B6009DDD55 /* ChildrenListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A91212B4BF6B6009DDD55 /* ChildrenListView.swift */; };
+		351A91242B4BF76C009DDD55 /* ViewChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A91232B4BF76C009DDD55 /* ViewChildView.swift */; };
+		351A91262B4BF789009DDD55 /* AddParenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A91252B4BF789009DDD55 /* AddParenView.swift */; };
+		351A91282B4BF7A1009DDD55 /* AddChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A91272B4BF7A1009DDD55 /* AddChildView.swift */; };
+		351A912A2B4BF7C2009DDD55 /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A91292B4BF7C2009DDD55 /* ChildView.swift */; };
+		351A91302B4BF9E1009DDD55 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A912F2B4BF9E1009DDD55 /* APIHelper.swift */; };
+		351A91322B4BFBF0009DDD55 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A91312B4BFBF0009DDD55 /* Models.swift */; };
 		35B828C02B4BF61200674F4E /* PiaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B828BF2B4BF61200674F4E /* PiaAppApp.swift */; };
-		35B828C22B4BF61200674F4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B828C12B4BF61200674F4E /* ContentView.swift */; };
+		35B828C22B4BF61200674F4E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B828C12B4BF61200674F4E /* MainView.swift */; };
 		35B828C42B4BF61500674F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B828C32B4BF61500674F4E /* Assets.xcassets */; };
 		35B828C72B4BF61500674F4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B828C62B4BF61500674F4E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351A911F2B4BF6A5009DDD55 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		351A91212B4BF6B6009DDD55 /* ChildrenListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenListView.swift; sourceTree = "<group>"; };
+		351A91232B4BF76C009DDD55 /* ViewChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewChildView.swift; sourceTree = "<group>"; };
+		351A91252B4BF789009DDD55 /* AddParenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParenView.swift; sourceTree = "<group>"; };
+		351A91272B4BF7A1009DDD55 /* AddChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildView.swift; sourceTree = "<group>"; };
+		351A91292B4BF7C2009DDD55 /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
+		351A912F2B4BF9E1009DDD55 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		351A91312B4BFBF0009DDD55 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		35B828BC2B4BF61200674F4E /* PiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B828BF2B4BF61200674F4E /* PiaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiaAppApp.swift; sourceTree = "<group>"; };
-		35B828C12B4BF61200674F4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35B828C12B4BF61200674F4E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		35B828C32B4BF61500674F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35B828C62B4BF61500674F4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +48,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		351A911E2B4BF681009DDD55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				351A912C2B4BF7F4009DDD55 /* ParentView */,
+				351A912D2B4BF7FA009DDD55 /* ChildView */,
+				351A911F2B4BF6A5009DDD55 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		351A912C2B4BF7F4009DDD55 /* ParentView */ = {
+			isa = PBXGroup;
+			children = (
+				351A91252B4BF789009DDD55 /* AddParenView.swift */,
+			);
+			path = ParentView;
+			sourceTree = "<group>";
+		};
+		351A912D2B4BF7FA009DDD55 /* ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				351A91232B4BF76C009DDD55 /* ViewChildView.swift */,
+				351A91292B4BF7C2009DDD55 /* ChildView.swift */,
+				351A91212B4BF6B6009DDD55 /* ChildrenListView.swift */,
+				351A91272B4BF7A1009DDD55 /* AddChildView.swift */,
+			);
+			path = ChildView;
+			sourceTree = "<group>";
+		};
+		351A912E2B4BF9C2009DDD55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				351A912F2B4BF9E1009DDD55 /* APIHelper.swift */,
+				351A91312B4BFBF0009DDD55 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		35B828B32B4BF61100674F4E = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +105,12 @@
 		35B828BE2B4BF61200674F4E /* PiaApp */ = {
 			isa = PBXGroup;
 			children = (
+				351A911E2B4BF681009DDD55 /* Views */,
+				35B828CE2B4BF62F00674F4E /* ViewModel */,
+				351A912E2B4BF9C2009DDD55 /* Model */,
+				35B828CD2B4BF62800674F4E /* Other */,
 				35B828BF2B4BF61200674F4E /* PiaAppApp.swift */,
-				35B828C12B4BF61200674F4E /* ContentView.swift */,
+				35B828C12B4BF61200674F4E /* MainView.swift */,
 				35B828C32B4BF61500674F4E /* Assets.xcassets */,
 				35B828C52B4BF61500674F4E /* Preview Content */,
 			);
@@ -65,6 +123,20 @@
 				35B828C62B4BF61500674F4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35B828CD2B4BF62800674F4E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		35B828CE2B4BF62F00674F4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +209,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B828C22B4BF61200674F4E /* ContentView.swift in Sources */,
+				351A91302B4BF9E1009DDD55 /* APIHelper.swift in Sources */,
+				351A91242B4BF76C009DDD55 /* ViewChildView.swift in Sources */,
+				351A912A2B4BF7C2009DDD55 /* ChildView.swift in Sources */,
+				351A91202B4BF6A5009DDD55 /* LoginView.swift in Sources */,
+				351A91282B4BF7A1009DDD55 /* AddChildView.swift in Sources */,
+				351A91222B4BF6B6009DDD55 /* ChildrenListView.swift in Sources */,
+				35B828C22B4BF61200674F4E /* MainView.swift in Sources */,
 				35B828C02B4BF61200674F4E /* PiaAppApp.swift in Sources */,
+				351A91262B4BF789009DDD55 /* AddParenView.swift in Sources */,
+				351A91322B4BFBF0009DDD55 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
