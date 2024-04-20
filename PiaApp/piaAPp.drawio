@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" modified="2024-01-08T10:45:15.416Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uSVdn1FR90Vrw-TkoTNn" version="22.1.17" type="github">
+  <diagram name="Page-1" id="Idh6XYTWA4kir-lPHowS">
+    <mxGraphModel dx="2171" dy="1225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-2" value="&lt;h1&gt;Login&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;Register&lt;/h1&gt;&lt;h2&gt;Child Jon&lt;/h2&gt;&lt;h1&gt;parent join&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="70" y="929" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-397" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrixCX8ctTzCdUWLVMBa-3" target="lrixCX8ctTzCdUWLVMBa-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="1085" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-3" value="&lt;h1&gt;start&lt;br&gt;&lt;b&gt;list chikdren&lt;br&gt;&lt;/b&gt;&lt;b&gt;add child&lt;br&gt;&lt;/b&gt;&lt;b&gt;add parent&lt;/b&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="400" y="930" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-4" value="&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Add child&lt;/span&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="765" y="930" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-5" value="&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Add Parent&lt;/span&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="765" y="1260" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-6" value="&lt;h4&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;XXXX&lt;/span&gt;&lt;/h4&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2850" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-7" value="&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;View Child&lt;/span&gt;&lt;/h3&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="760" y="530" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-398" value="&lt;h1&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Child&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1390" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-410" value="&lt;h1&gt;API&lt;/h1&gt;&lt;h2&gt;/Register&lt;/h2&gt;&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;/&lt;font style=&quot;font-size: 24px;&quot;&gt;Login&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;/load Children&lt;/h2&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/add children&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/Add parent&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/UpdateChild&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/Give Moeny&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/Spend Money&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/Children&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/ParentJoin&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/ChildInfo&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/remove parent&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/remove child&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;/child/123/givemoney&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1710" width="260" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-413" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="lrixCX8ctTzCdUWLVMBa-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="1078.33" as="sourcePoint" />
+            <mxPoint x="400" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-416" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AA&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2420" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-425" value="Parent&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;name&lt;br&gt;invite code" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1750" width="150" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-426" value="Child&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;money&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;get money&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;how often" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1750" width="155" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-428" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=-0.007;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="lrixCX8ctTzCdUWLVMBa-398">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="250" y="1230" as="sourcePoint" />
+            <mxPoint x="350" y="1230" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-429" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="lrixCX8ctTzCdUWLVMBa-3" target="lrixCX8ctTzCdUWLVMBa-7">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="550" y="830" as="sourcePoint" />
+            <mxPoint x="750" y="730" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrixCX8ctTzCdUWLVMBa-430" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrixCX8ctTzCdUWLVMBa-3" target="lrixCX8ctTzCdUWLVMBa-5">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="510" y="1320" as="sourcePoint" />
+            <mxPoint x="610" y="1320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
