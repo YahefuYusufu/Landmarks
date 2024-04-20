@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		35127D3F2BD418FF00B81248 /* LongGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35127D3E2BD418FF00B81248 /* LongGesture.swift */; };
 		35127D412BD4268800B81248 /* Magnification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35127D402BD4268800B81248 /* Magnification.swift */; };
+		35127D432BD434D800B81248 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35127D422BD434D800B81248 /* Rotation.swift */; };
 		3527C7122BD4118B00ED4255 /* SwiftUIIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527C7112BD4118B00ED4255 /* SwiftUIIntermediateApp.swift */; };
 		3527C7142BD4118B00ED4255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527C7132BD4118B00ED4255 /* ContentView.swift */; };
 		3527C7162BD4118F00ED4255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3527C7152BD4118F00ED4255 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		35127D3E2BD418FF00B81248 /* LongGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongGesture.swift; sourceTree = "<group>"; };
 		35127D402BD4268800B81248 /* Magnification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magnification.swift; sourceTree = "<group>"; };
+		35127D422BD434D800B81248 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
 		3527C70E2BD4118B00ED4255 /* SwiftUIIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3527C7112BD4118B00ED4255 /* SwiftUIIntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIntermediateApp.swift; sourceTree = "<group>"; };
 		3527C7132BD4118B00ED4255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		3527C7052BD4118B00ED4255 = {
 			isa = PBXGroup;
 			children = (
+				35127D422BD434D800B81248 /* Rotation.swift */,
 				3527C7102BD4118B00ED4255 /* SwiftUIIntermediate */,
 				3527C70F2BD4118B00ED4255 /* Products */,
 			);
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35127D432BD434D800B81248 /* Rotation.swift in Sources */,
 				3527C7142BD4118B00ED4255 /* ContentView.swift in Sources */,
 				35127D412BD4268800B81248 /* Magnification.swift in Sources */,
 				35127D3F2BD418FF00B81248 /* LongGesture.swift in Sources */,
