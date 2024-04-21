@@ -16,8 +16,10 @@ struct ContentView: View {
 //            Rotation()
 //            ScrollViewR()
 //            GeometryReaderBootCamp()
-            MultipleSheets()
+//            MultipleSheets()
+            Mask()
         }
+        
     }
 }
 

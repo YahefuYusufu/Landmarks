@@ -19,6 +19,7 @@
 		35DD10EB2BD4F27400B7C889 /* ScrollViewR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10EA2BD4F27400B7C889 /* ScrollViewR.swift */; };
 		35DD10ED2BD5098A00B7C889 /* GeometryReaderBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10EC2BD5098900B7C889 /* GeometryReaderBootCamp.swift */; };
 		35DD10EF2BD50E4A00B7C889 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10EE2BD50E4A00B7C889 /* MultipleSheets.swift */; };
+		35DD10F12BD59D5200B7C889 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10F02BD59D5100B7C889 /* Mask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		35DD10EA2BD4F27400B7C889 /* ScrollViewR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewR.swift; sourceTree = "<group>"; };
 		35DD10EC2BD5098900B7C889 /* GeometryReaderBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootCamp.swift; sourceTree = "<group>"; };
 		35DD10EE2BD50E4A00B7C889 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
+		35DD10F02BD59D5100B7C889 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				35DD10E82BD4EA5A00B7C889 /* DragGes2.swift */,
 				35DD10EA2BD4F27400B7C889 /* ScrollViewR.swift */,
 				35DD10EC2BD5098900B7C889 /* GeometryReaderBootCamp.swift */,
+				35DD10F02BD59D5100B7C889 /* Mask.swift */,
 			);
 			path = gesture;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35DD10EB2BD4F27400B7C889 /* ScrollViewR.swift in Sources */,
+				35DD10F12BD59D5200B7C889 /* Mask.swift in Sources */,
 				35127D432BD434D800B81248 /* Rotation.swift in Sources */,
 				35DD10E92BD4EA5A00B7C889 /* DragGes2.swift in Sources */,
 				35DD10EF2BD50E4A00B7C889 /* MultipleSheets.swift in Sources */,
