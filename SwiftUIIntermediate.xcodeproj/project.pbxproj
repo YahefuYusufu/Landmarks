@@ -14,6 +14,8 @@
 		3527C7142BD4118B00ED4255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527C7132BD4118B00ED4255 /* ContentView.swift */; };
 		3527C7162BD4118F00ED4255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3527C7152BD4118F00ED4255 /* Assets.xcassets */; };
 		3527C71A2BD4118F00ED4255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3527C7192BD4118F00ED4255 /* Preview Assets.xcassets */; };
+		35DD10E72BD4D98F00B7C889 /* DragGes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10E62BD4D98F00B7C889 /* DragGes.swift */; };
+		35DD10E92BD4EA5A00B7C889 /* DragGes2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10E82BD4EA5A00B7C889 /* DragGes2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3527C7152BD4118F00ED4255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3527C7172BD4118F00ED4255 /* SwiftUIIntermediate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIIntermediate.entitlements; sourceTree = "<group>"; };
 		3527C7192BD4118F00ED4255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35DD10E62BD4D98F00B7C889 /* DragGes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGes.swift; sourceTree = "<group>"; };
+		35DD10E82BD4EA5A00B7C889 /* DragGes2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGes2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			children = (
 				35127D3E2BD418FF00B81248 /* LongGesture.swift */,
 				35127D402BD4268800B81248 /* Magnification.swift */,
+				35DD10E62BD4D98F00B7C889 /* DragGes.swift */,
+				35DD10E82BD4EA5A00B7C889 /* DragGes2.swift */,
 			);
 			path = gesture;
 			sourceTree = "<group>";
@@ -157,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35127D432BD434D800B81248 /* Rotation.swift in Sources */,
+				35DD10E92BD4EA5A00B7C889 /* DragGes2.swift in Sources */,
+				35DD10E72BD4D98F00B7C889 /* DragGes.swift in Sources */,
 				3527C7142BD4118B00ED4255 /* ContentView.swift in Sources */,
 				35127D412BD4268800B81248 /* Magnification.swift in Sources */,
 				35127D3F2BD418FF00B81248 /* LongGesture.swift in Sources */,
