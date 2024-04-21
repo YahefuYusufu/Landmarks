@@ -10,19 +10,10 @@ import SwiftUI
 struct ScrollViewR: View {
 
     var body: some View {
-        @State var scrollToIndex: Int = 0
-        @State var textFieldText: String = ""
         VStack {
-            TextField("Emter a # here.... ", text: $textFieldText)
-                .frame(height: 45)
-                .border(Color.gray)
-                .padding(.horizontal)
-                .keyboardType(.numberPad)
+           
             Button("SCROLL now") {
-                withAnimation(.spring()) {
-                    if let index = Int(textFieldText) {
-                        scrollToIndex = index
-                    }
+              
 //                    proxy.scrollTo(30,anchor: .center)
                 }
             }
@@ -42,17 +33,14 @@ struct ScrollViewR: View {
                                 .padding()
                                 .id(index)
                         }
-                        .onChange(of: scrollToIndex) {old,new in
-                            proxy.scrollTo(new,anchor: .top)
-                        }
-                    }
+                     }
                 }
             }
         }
         
     }
         
-}
+
 
 #Preview {
     ScrollViewR()
