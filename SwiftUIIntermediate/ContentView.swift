@@ -15,7 +15,8 @@ struct ContentView: View {
 //            DragGes2()
 //            Rotation()
 //            ScrollViewR()
-            GeometryReaderBootCamp()
+//            GeometryReaderBootCamp()
+            MultipleSheets()
         }
     }
 }
