@@ -14,9 +14,9 @@ struct ContentView: View {
 //            Magnification()
 //            DragGes2()
 //            Rotation()
-            ScrollViewR()
+//            ScrollViewR()
+            GeometryReaderBootCamp()
         }
-        .padding()
     }
 }
 
