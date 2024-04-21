@@ -25,7 +25,9 @@ struct Magnification: View {
                 .gesture(
                     MagnificationGesture()
                         .onChanged { value in
-                            currentAmount = value - 1
+                            withAnimation(.spring()) {
+                                currentAmount = value - 1
+                            }
                         }
                         .onEnded { value in
                             withAnimation(.spring()) {

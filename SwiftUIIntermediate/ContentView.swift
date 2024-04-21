@@ -12,8 +12,9 @@ struct ContentView: View {
         VStack {
 //            LongGesture()
 //            Magnification()
-            DragGes2()
+//            DragGes2()
 //            Rotation()
+            ScrollViewR()
         }
         .padding()
     }

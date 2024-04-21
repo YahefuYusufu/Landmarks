@@ -16,6 +16,7 @@
 		3527C71A2BD4118F00ED4255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3527C7192BD4118F00ED4255 /* Preview Assets.xcassets */; };
 		35DD10E72BD4D98F00B7C889 /* DragGes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10E62BD4D98F00B7C889 /* DragGes.swift */; };
 		35DD10E92BD4EA5A00B7C889 /* DragGes2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10E82BD4EA5A00B7C889 /* DragGes2.swift */; };
+		35DD10EB2BD4F27400B7C889 /* ScrollViewR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10EA2BD4F27400B7C889 /* ScrollViewR.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3527C7192BD4118F00ED4255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		35DD10E62BD4D98F00B7C889 /* DragGes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGes.swift; sourceTree = "<group>"; };
 		35DD10E82BD4EA5A00B7C889 /* DragGes2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGes2.swift; sourceTree = "<group>"; };
+		35DD10EA2BD4F27400B7C889 /* ScrollViewR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewR.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 				35127D402BD4268800B81248 /* Magnification.swift */,
 				35DD10E62BD4D98F00B7C889 /* DragGes.swift */,
 				35DD10E82BD4EA5A00B7C889 /* DragGes2.swift */,
+				35DD10EA2BD4F27400B7C889 /* ScrollViewR.swift */,
 			);
 			path = gesture;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35DD10EB2BD4F27400B7C889 /* ScrollViewR.swift in Sources */,
 				35127D432BD434D800B81248 /* Rotation.swift in Sources */,
 				35DD10E92BD4EA5A00B7C889 /* DragGes2.swift in Sources */,
 				35DD10E72BD4D98F00B7C889 /* DragGes.swift in Sources */,
