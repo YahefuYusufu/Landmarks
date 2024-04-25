@@ -18,7 +18,7 @@ struct ContentView: View {
 //            GeometryReaderBootCamp()
 //            MultipleSheets()
 //            Mask()
-            Sound()
+//            Sound()
         }
         
     }
