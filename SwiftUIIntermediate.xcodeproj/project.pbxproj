@@ -15,6 +15,7 @@
 		3527C7162BD4118F00ED4255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3527C7152BD4118F00ED4255 /* Assets.xcassets */; };
 		3527C71A2BD4118F00ED4255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3527C7192BD4118F00ED4255 /* Preview Assets.xcassets */; };
 		3586B6022BDCC58900C1F359 /* HapticsVibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */; };
+		3586B6042BDCCD9500C1F359 /* AddLocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */; };
 		35D642FB2BD6BD8900C57C30 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35D642F92BD6BD8900C57C30 /* badum.mp3 */; };
 		35D642FC2BD6BD8900C57C30 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35D642FA2BD6BD8900C57C30 /* tada.mp3 */; };
 		35DD10E72BD4D98F00B7C889 /* DragGes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10E62BD4D98F00B7C889 /* DragGes.swift */; };
@@ -37,6 +38,7 @@
 		3527C7172BD4118F00ED4255 /* SwiftUIIntermediate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIIntermediate.entitlements; sourceTree = "<group>"; };
 		3527C7192BD4118F00ED4255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsVibrations.swift; sourceTree = "<group>"; };
+		3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocalNotification.swift; sourceTree = "<group>"; };
 		35D642F92BD6BD8900C57C30 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		35D642FA2BD6BD8900C57C30 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		35DD10E62BD4D98F00B7C889 /* DragGes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGes.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				35D642F82BD6BD6E00C57C30 /* Sounds */,
 				35DD10F22BD5A3B900B7C889 /* Sound.swift */,
 				3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */,
+				3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */,
 			);
 			path = gesture;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				35DD10EB2BD4F27400B7C889 /* ScrollViewR.swift in Sources */,
 				35DD10F12BD59D5200B7C889 /* Mask.swift in Sources */,
+				3586B6042BDCCD9500C1F359 /* AddLocalNotification.swift in Sources */,
 				35127D432BD434D800B81248 /* Rotation.swift in Sources */,
 				35DD10E92BD4EA5A00B7C889 /* DragGes2.swift in Sources */,
 				35DD10EF2BD50E4A00B7C889 /* MultipleSheets.swift in Sources */,

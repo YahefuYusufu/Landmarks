@@ -19,7 +19,8 @@ struct ContentView: View {
 //            MultipleSheets()
 //            Mask()
 //            Sound()
-            HapticsVibrations()
+//            HapticsVibrations()
+            AddLocalNotification()
         }
         
     }
