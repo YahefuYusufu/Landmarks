@@ -13,27 +13,7 @@
 		35542C8D2BDE4B35008AD341 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35542C8C2BDE4B35008AD341 /* ContentView.swift */; };
 		35542C8F2BDE4B3A008AD341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35542C8E2BDE4B3A008AD341 /* Assets.xcassets */; };
 		35542C932BDE4B3A008AD341 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35542C922BDE4B3A008AD341 /* Preview Assets.xcassets */; };
-		35542C9D2BDE4B3B008AD341 /* CoreDataBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35542C9C2BDE4B3B008AD341 /* CoreDataBootcampTests.swift */; };
-		35542CA72BDE4B3B008AD341 /* CoreDataBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35542CA62BDE4B3B008AD341 /* CoreDataBootcampUITests.swift */; };
-		35542CA92BDE4B3B008AD341 /* CoreDataBootcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35542CA82BDE4B3B008AD341 /* CoreDataBootcampUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		35542C992BDE4B3B008AD341 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 35542C7A2BDE4B35008AD341 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35542C812BDE4B35008AD341;
-			remoteInfo = CoreDataBootcamp;
-		};
-		35542CA32BDE4B3B008AD341 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 35542C7A2BDE4B35008AD341 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35542C812BDE4B35008AD341;
-			remoteInfo = CoreDataBootcamp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		35542C822BDE4B35008AD341 /* CoreDataBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,29 +24,10 @@
 		35542C8E2BDE4B3A008AD341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35542C902BDE4B3A008AD341 /* CoreDataBootcamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreDataBootcamp.entitlements; sourceTree = "<group>"; };
 		35542C922BDE4B3A008AD341 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		35542C982BDE4B3B008AD341 /* CoreDataBootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataBootcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35542C9C2BDE4B3B008AD341 /* CoreDataBootcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcampTests.swift; sourceTree = "<group>"; };
-		35542CA22BDE4B3B008AD341 /* CoreDataBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35542CA62BDE4B3B008AD341 /* CoreDataBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcampUITests.swift; sourceTree = "<group>"; };
-		35542CA82BDE4B3B008AD341 /* CoreDataBootcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		35542C7F2BDE4B35008AD341 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35542C952BDE4B3B008AD341 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35542C9F2BDE4B3B008AD341 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				35542C842BDE4B35008AD341 /* CoreDataBootcamp */,
-				35542C9B2BDE4B3B008AD341 /* CoreDataBootcampTests */,
-				35542CA52BDE4B3B008AD341 /* CoreDataBootcampUITests */,
 				35542C832BDE4B35008AD341 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				35542C822BDE4B35008AD341 /* CoreDataBootcamp.app */,
-				35542C982BDE4B3B008AD341 /* CoreDataBootcampTests.xctest */,
-				35542CA22BDE4B3B008AD341 /* CoreDataBootcampUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,23 +75,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		35542C9B2BDE4B3B008AD341 /* CoreDataBootcampTests */ = {
-			isa = PBXGroup;
-			children = (
-				35542C9C2BDE4B3B008AD341 /* CoreDataBootcampTests.swift */,
-			);
-			path = CoreDataBootcampTests;
-			sourceTree = "<group>";
-		};
-		35542CA52BDE4B3B008AD341 /* CoreDataBootcampUITests */ = {
-			isa = PBXGroup;
-			children = (
-				35542CA62BDE4B3B008AD341 /* CoreDataBootcampUITests.swift */,
-				35542CA82BDE4B3B008AD341 /* CoreDataBootcampUITestsLaunchTests.swift */,
-			);
-			path = CoreDataBootcampUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,42 +95,6 @@
 			productReference = 35542C822BDE4B35008AD341 /* CoreDataBootcamp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		35542C972BDE4B3B008AD341 /* CoreDataBootcampTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 35542CAF2BDE4B3B008AD341 /* Build configuration list for PBXNativeTarget "CoreDataBootcampTests" */;
-			buildPhases = (
-				35542C942BDE4B3B008AD341 /* Sources */,
-				35542C952BDE4B3B008AD341 /* Frameworks */,
-				35542C962BDE4B3B008AD341 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				35542C9A2BDE4B3B008AD341 /* PBXTargetDependency */,
-			);
-			name = CoreDataBootcampTests;
-			productName = CoreDataBootcampTests;
-			productReference = 35542C982BDE4B3B008AD341 /* CoreDataBootcampTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		35542CA12BDE4B3B008AD341 /* CoreDataBootcampUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 35542CB22BDE4B3B008AD341 /* Build configuration list for PBXNativeTarget "CoreDataBootcampUITests" */;
-			buildPhases = (
-				35542C9E2BDE4B3B008AD341 /* Sources */,
-				35542C9F2BDE4B3B008AD341 /* Frameworks */,
-				35542CA02BDE4B3B008AD341 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				35542CA42BDE4B3B008AD341 /* PBXTargetDependency */,
-			);
-			name = CoreDataBootcampUITests;
-			productName = CoreDataBootcampUITests;
-			productReference = 35542CA22BDE4B3B008AD341 /* CoreDataBootcampUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,14 +107,6 @@
 				TargetAttributes = {
 					35542C812BDE4B35008AD341 = {
 						CreatedOnToolsVersion = 15.3;
-					};
-					35542C972BDE4B3B008AD341 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 35542C812BDE4B35008AD341;
-					};
-					35542CA12BDE4B3B008AD341 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 35542C812BDE4B35008AD341;
 					};
 				};
 			};
@@ -228,8 +124,6 @@
 			projectRoot = "";
 			targets = (
 				35542C812BDE4B35008AD341 /* CoreDataBootcamp */,
-				35542C972BDE4B3B008AD341 /* CoreDataBootcampTests */,
-				35542CA12BDE4B3B008AD341 /* CoreDataBootcampUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,20 +135,6 @@
 			files = (
 				35542C932BDE4B3A008AD341 /* Preview Assets.xcassets in Resources */,
 				35542C8F2BDE4B3A008AD341 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35542C962BDE4B3B008AD341 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35542CA02BDE4B3B008AD341 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,37 +152,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35542C942BDE4B3B008AD341 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35542C9D2BDE4B3B008AD341 /* CoreDataBootcampTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35542C9E2BDE4B3B008AD341 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35542CA92BDE4B3B008AD341 /* CoreDataBootcampUITestsLaunchTests.swift in Sources */,
-				35542CA72BDE4B3B008AD341 /* CoreDataBootcampUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		35542C9A2BDE4B3B008AD341 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 35542C812BDE4B35008AD341 /* CoreDataBootcamp */;
-			targetProxy = 35542C992BDE4B3B008AD341 /* PBXContainerItemProxy */;
-		};
-		35542CA42BDE4B3B008AD341 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 35542C812BDE4B35008AD341 /* CoreDataBootcamp */;
-			targetProxy = 35542CA32BDE4B3B008AD341 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		35542CAA2BDE4B3B008AD341 /* Debug */ = {
@@ -495,96 +345,6 @@
 			};
 			name = Release;
 		};
-		35542CB02BDE4B3B008AD341 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73P5VLU884;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.prg.CoreDataBootcampTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataBootcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreDataBootcamp";
-			};
-			name = Debug;
-		};
-		35542CB12BDE4B3B008AD341 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73P5VLU884;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.prg.CoreDataBootcampTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataBootcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreDataBootcamp";
-			};
-			name = Release;
-		};
-		35542CB32BDE4B3B008AD341 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73P5VLU884;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.prg.CoreDataBootcampUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CoreDataBootcamp;
-			};
-			name = Debug;
-		};
-		35542CB42BDE4B3B008AD341 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73P5VLU884;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.prg.CoreDataBootcampUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CoreDataBootcamp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -602,24 +362,6 @@
 			buildConfigurations = (
 				35542CAD2BDE4B3B008AD341 /* Debug */,
 				35542CAE2BDE4B3B008AD341 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		35542CAF2BDE4B3B008AD341 /* Build configuration list for PBXNativeTarget "CoreDataBootcampTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35542CB02BDE4B3B008AD341 /* Debug */,
-				35542CB12BDE4B3B008AD341 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		35542CB22BDE4B3B008AD341 /* Build configuration list for PBXNativeTarget "CoreDataBootcampUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35542CB32BDE4B3B008AD341 /* Debug */,
-				35542CB42BDE4B3B008AD341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
