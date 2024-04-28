@@ -14,6 +14,7 @@
 		3527C7142BD4118B00ED4255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527C7132BD4118B00ED4255 /* ContentView.swift */; };
 		3527C7162BD4118F00ED4255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3527C7152BD4118F00ED4255 /* Assets.xcassets */; };
 		3527C71A2BD4118F00ED4255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3527C7192BD4118F00ED4255 /* Preview Assets.xcassets */; };
+		3551F0A52BDE2226007500DE /* HashableT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551F0A42BDE2226007500DE /* HashableT.swift */; };
 		3586B6022BDCC58900C1F359 /* HapticsVibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */; };
 		3586B6042BDCCD9500C1F359 /* AddLocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */; };
 		35D642FB2BD6BD8900C57C30 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35D642F92BD6BD8900C57C30 /* badum.mp3 */; };
@@ -37,6 +38,7 @@
 		3527C7152BD4118F00ED4255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3527C7172BD4118F00ED4255 /* SwiftUIIntermediate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIIntermediate.entitlements; sourceTree = "<group>"; };
 		3527C7192BD4118F00ED4255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3551F0A42BDE2226007500DE /* HashableT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableT.swift; sourceTree = "<group>"; };
 		3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsVibrations.swift; sourceTree = "<group>"; };
 		3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocalNotification.swift; sourceTree = "<group>"; };
 		35D642F92BD6BD8900C57C30 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
@@ -64,18 +66,15 @@
 		35127D3D2BD418D600B81248 /* gesture */ = {
 			isa = PBXGroup;
 			children = (
+				35127D422BD434D800B81248 /* Rotation.swift */,
 				35DD10EE2BD50E4A00B7C889 /* MultipleSheets.swift */,
 				35127D3E2BD418FF00B81248 /* LongGesture.swift */,
 				35127D402BD4268800B81248 /* Magnification.swift */,
 				35DD10E62BD4D98F00B7C889 /* DragGes.swift */,
 				35DD10E82BD4EA5A00B7C889 /* DragGes2.swift */,
 				35DD10EA2BD4F27400B7C889 /* ScrollViewR.swift */,
-				35DD10EC2BD5098900B7C889 /* GeometryReaderBootCamp.swift */,
-				35DD10F02BD59D5100B7C889 /* Mask.swift */,
 				35D642F82BD6BD6E00C57C30 /* Sounds */,
 				35DD10F22BD5A3B900B7C889 /* Sound.swift */,
-				3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */,
-				3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */,
 			);
 			path = gesture;
 			sourceTree = "<group>";
@@ -83,7 +82,6 @@
 		3527C7052BD4118B00ED4255 = {
 			isa = PBXGroup;
 			children = (
-				35127D422BD434D800B81248 /* Rotation.swift */,
 				3527C7102BD4118B00ED4255 /* SwiftUIIntermediate */,
 				3527C70F2BD4118B00ED4255 /* Products */,
 			);
@@ -100,6 +98,7 @@
 		3527C7102BD4118B00ED4255 /* SwiftUIIntermediate */ = {
 			isa = PBXGroup;
 			children = (
+				3551F0A32BDE2204007500DE /* other */,
 				35127D3D2BD418D600B81248 /* gesture */,
 				3527C7112BD4118B00ED4255 /* SwiftUIIntermediateApp.swift */,
 				3527C7132BD4118B00ED4255 /* ContentView.swift */,
@@ -116,6 +115,18 @@
 				3527C7192BD4118F00ED4255 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3551F0A32BDE2204007500DE /* other */ = {
+			isa = PBXGroup;
+			children = (
+				35DD10EC2BD5098900B7C889 /* GeometryReaderBootCamp.swift */,
+				35DD10F02BD59D5100B7C889 /* Mask.swift */,
+				3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */,
+				3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */,
+				3551F0A42BDE2226007500DE /* HashableT.swift */,
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 		35D642F82BD6BD6E00C57C30 /* Sounds */ = {
@@ -213,6 +224,7 @@
 				35127D412BD4268800B81248 /* Magnification.swift in Sources */,
 				35127D3F2BD418FF00B81248 /* LongGesture.swift in Sources */,
 				3527C7122BD4118B00ED4255 /* SwiftUIIntermediateApp.swift in Sources */,
+				3551F0A52BDE2226007500DE /* HashableT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,7 +20,8 @@ struct ContentView: View {
 //            Mask()
 //            Sound()
 //            HapticsVibrations()
-            AddLocalNotification()
+//            AddLocalNotification()
+            HashableT()
         }
         
     }
