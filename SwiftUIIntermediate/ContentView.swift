@@ -22,7 +22,8 @@ struct ContentView: View {
 //            HapticsVibrations()
 //            AddLocalNotification()
 //            HashableT()
-            Filter()
+              Filter()
+             
         }
         
     }
