@@ -17,6 +17,7 @@
 		3551F0A52BDE2226007500DE /* HashableT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551F0A42BDE2226007500DE /* HashableT.swift */; };
 		3586B6022BDCC58900C1F359 /* HapticsVibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */; };
 		3586B6042BDCCD9500C1F359 /* AddLocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */; };
+		35AD3F382BDE31AD00CEC7FA /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD3F372BDE31AD00CEC7FA /* Filter.swift */; };
 		35D642FB2BD6BD8900C57C30 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35D642F92BD6BD8900C57C30 /* badum.mp3 */; };
 		35D642FC2BD6BD8900C57C30 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35D642FA2BD6BD8900C57C30 /* tada.mp3 */; };
 		35DD10E72BD4D98F00B7C889 /* DragGes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10E62BD4D98F00B7C889 /* DragGes.swift */; };
@@ -41,6 +42,7 @@
 		3551F0A42BDE2226007500DE /* HashableT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableT.swift; sourceTree = "<group>"; };
 		3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsVibrations.swift; sourceTree = "<group>"; };
 		3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocalNotification.swift; sourceTree = "<group>"; };
+		35AD3F372BDE31AD00CEC7FA /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		35D642F92BD6BD8900C57C30 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		35D642FA2BD6BD8900C57C30 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		35DD10E62BD4D98F00B7C889 /* DragGes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGes.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				3586B6032BDCCD9500C1F359 /* AddLocalNotification.swift */,
 				3586B6012BDCC58900C1F359 /* HapticsVibrations.swift */,
 				3551F0A42BDE2226007500DE /* HashableT.swift */,
+				35AD3F372BDE31AD00CEC7FA /* Filter.swift */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				3527C7142BD4118B00ED4255 /* ContentView.swift in Sources */,
 				35127D412BD4268800B81248 /* Magnification.swift in Sources */,
 				35127D3F2BD418FF00B81248 /* LongGesture.swift in Sources */,
+				35AD3F382BDE31AD00CEC7FA /* Filter.swift in Sources */,
 				3527C7122BD4118B00ED4255 /* SwiftUIIntermediateApp.swift in Sources */,
 				3551F0A52BDE2226007500DE /* HashableT.swift in Sources */,
 			);
