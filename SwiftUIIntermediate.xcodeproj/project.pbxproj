@@ -27,6 +27,8 @@
 		35DD10EF2BD50E4A00B7C889 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10EE2BD50E4A00B7C889 /* MultipleSheets.swift */; };
 		35DD10F12BD59D5200B7C889 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10F02BD59D5100B7C889 /* Mask.swift */; };
 		35DD10F32BD5A3B900B7C889 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD10F22BD5A3B900B7C889 /* Sound.swift */; };
+		35DEABBD2BE7FDCE0026779E /* CoreDataBootCapm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DEABBC2BE7FDCE0026779E /* CoreDataBootCapm.swift */; };
+		35DEABC12BE7FF7A0026779E /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35DEABBF2BE7FF7A0026779E /* FruitsContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		35DD10EE2BD50E4A00B7C889 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 		35DD10F02BD59D5100B7C889 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 		35DD10F22BD5A3B900B7C889 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		35DEABBC2BE7FDCE0026779E /* CoreDataBootCapm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCapm.swift; sourceTree = "<group>"; };
+		35DEABC02BE7FF7A0026779E /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		3527C7102BD4118B00ED4255 /* SwiftUIIntermediate */ = {
 			isa = PBXGroup;
 			children = (
+				35DEABBE2BE7FF480026779E /* CoreData */,
 				3551F0A32BDE2204007500DE /* other */,
 				35127D3D2BD418D600B81248 /* gesture */,
 				3527C7112BD4118B00ED4255 /* SwiftUIIntermediateApp.swift */,
@@ -139,6 +144,15 @@
 				35D642FA2BD6BD8900C57C30 /* tada.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		35DEABBE2BE7FF480026779E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				35DEABBC2BE7FDCE0026779E /* CoreDataBootCapm.swift */,
+				35DEABBF2BE7FF7A0026779E /* FruitsContainer.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35DEABC12BE7FF7A0026779E /* FruitsContainer.xcdatamodeld in Sources */,
 				35DD10EB2BD4F27400B7C889 /* ScrollViewR.swift in Sources */,
+				35DEABBD2BE7FDCE0026779E /* CoreDataBootCapm.swift in Sources */,
 				35DD10F12BD59D5200B7C889 /* Mask.swift in Sources */,
 				3586B6042BDCCD9500C1F359 /* AddLocalNotification.swift in Sources */,
 				35127D432BD434D800B81248 /* Rotation.swift in Sources */,
@@ -447,6 +463,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35DEABBF2BE7FF7A0026779E /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35DEABC02BE7FF7A0026779E /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 35DEABC02BE7FF7A0026779E /* FruitsContainer.xcdatamodel */;
+			name = FruitsContainer.xcdatamodeld;
+			path = /Users/prg/Documents/Documents/projects/SwiftUIIntermediate/SwiftUIIntermediate/CoreData/FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3527C7062BD4118B00ED4255 /* Project object */;
 }
